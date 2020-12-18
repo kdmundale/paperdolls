@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/wallpaper3.png");
+  background-repeat: repeat;
+  left:0;right:0;
+  z-index: -10;
+}
+
+#dress-box{
+  position: fixed;
+  top: 50px; bottom:50px;
+  left: 50px; right: 50px;
+  background-color: rgba(255,253,172,.7);
+}
+
+#dress-box{
+  display: none;
+}
+#dress-box2{
+  position: fixed;
+  top: 50px; bottom:50px;
+  left: 50px; right: 50px;
+  background-color: rgba(238,118,52,.7);
+}
+#dress-box2{
+  display: none;
+}
+
+#dress-box3{
+  position: fixed;
+  top: 50px; bottom:50px;
+  left: 50px; right: 50px;
+  background-color: rgba(250,233,77,.7);
+}
+
+.torchy {
+  height: 400px;
+  position: fixed;
+  z-index: 1;
+}
+
+.torchy-dress {
+  height: 320px;
+  position: fixed;
+  z-index: 10;
+}
+
+.torchy-dress2 {
+  height: 260px;
+  position: fixed;
+  z-index: 10;
+}
+
+.torchy-dress3 {
+  height: 260px;
+  position: fixed;
+  z-index: 10;
+}
+
+.torchy-hat {
+  position: fixed;
+  z-index: 10;
+}
+
+#t, #t6, #t11 {
+  top:200px; left:60%;
+  z-index: 4;
+}
+#t1,#t8,  #t12{
+  top:150px; left:20%
+}
+#t2,#t13{
+  top:150px; left:40%
+}
+#t3,#t9,#t14{
+  top:250px; left:30%
+}
+#t4, #t7,#t15 {
+  top:250px; left:10%
+}
+#t5 {
+  height: 75px;
+  top:200px; left:10%;
+}
+
+#t10 {
+  height:55px;
+  top:200px; left:10%;
+}
+
+#logo {
+  position: fixed;
+  top:400px;left:75%;
+}
+
+#sig {
+  position: fixed;
+  top: 500px; left:75%;
+}
