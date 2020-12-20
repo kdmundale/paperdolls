@@ -83,15 +83,55 @@ nav {
 @media only screen and (min-width: 300px){
 
   .button-dress {
-    font-family: cursive;
-    color: white;
+
     border: 2px solid rgb(93,154,49);
     box-shadow: 0px 0px 10px 5px rgb(93,154,49);
-    background: linear-gradient(rgb(250,233,77), rgb(238,118,52), rgb(223,69,40));
     border-radius: 0%;
     text-align: center;
     font-size: 40px;
-    padding: 40px 80px 40px 80px;
+    height: 125px;
+    width:150px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #one {
+  background-image: url("images/t1.png");
+}
+  #two {
+    background-image: url("images/t2.png");
+  }
+  #three {
+    background-image: url("images/t3.png");
+  }
+
+  #four {
+    background-image: url("images/t4.png");
+  }
+
+  #five {
+    background-image: url("images/t5.png");
+
+  }
+
+  #intro-box {
+    position: fixed;
+    top: 200px; bottom:200px;
+    left: 50px; right: 50px;
+    background-color: rgba(252, 252, 212,.7);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgba(173,109,104,.9);
+  }
+
+  #intro-box h1{
+    padding: 50px;
+    font-size: 100px;
+  }
+  #intro-box p {
+    padding: 10px;
+    font-size: 50px;
   }
   #dress-box{
     position: fixed;
@@ -153,15 +193,15 @@ nav {
   }
 
   .torchy-dress3,.torchy-dress4, .torchy-dress5 {
-    height: 31%;
+    height: 29%;
   }
 
   #t20 {
-    height: 40%;
+    height: 37%;
   }
 
   #t16a {
-    height:42%;
+    height:36%;
   }
 
   #t, #t6, #t11, #t21, #t16  {

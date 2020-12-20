@@ -90,31 +90,7 @@ function moveDress(dragItem, container) {
   }
 };
 
-moveDress(t1, container);
-moveDress(t2, container);
-moveDress(t3, container);
-moveDress(t4, container);
-moveDress(t5, container);
-moveDress(t7, container2);
-moveDress(t8, container2);
-moveDress(t9, container2);
-moveDress(t10, container2);
-moveDress(t12, container3);
-moveDress(t13, container3);
-moveDress(t14, container3);
-moveDress(t15, container3);
-moveDress(t22, container4);
-moveDress(t23, container4);
-moveDress(t24, container4);
-moveDress(t16a, container5);
-moveDress(t17, container5);
-moveDress(t19, container5);
-moveDress(t20, container5);
-
-
-
 function hide_elm (elm) {
-  console.log("hide this",elm);
   if(typeof(elm) != 'undefined' && elm != null){
     if (elm.style.display == "block"){
       elm.style.display = "none";
@@ -125,10 +101,8 @@ function hide_elm (elm) {
 };
 
 function show_elm (elm) {
-  console.log("show this", elm);
   if(typeof(elm) != 'undefined' && elm != null){
     if (elm.style.display == "none"){
-      console.log("show", elm)
       elm.style.display = "block";
     } else {
       elm.style.display = "block";
@@ -140,6 +114,7 @@ let box2 = document.getElementById("box2");
 let box3 = document.getElementById("box3");
 let box4 = document.getElementById("box4");
 let box5 = document.getElementById("box5");
+let intro= document.getElementById("intro");
 
 
 let one = document.getElementById("one");
@@ -148,10 +123,10 @@ let three = document.getElementById("three");
 let four = document.getElementById("four");
 let five= document.getElementById("five");
 
-let elms = [box1, box2, box3, box4, box5];
+let elms = [box1, box2, box3, box4, box5, intro];
 
 function viewDresses1() {
-
+  let dresses= [t1, t2, t3, t4, t5];
   for (i=0; i < elms.length; i++){
     if (elms[i] == box1){
       show_elm(box1);
@@ -159,9 +134,13 @@ function viewDresses1() {
       hide_elm(elms[i]);
     }
   };
+  for (i=0; i < dresses.length; i++){
+    moveDress(dresses[i], container);
+  }
 };
-function viewDresses2() {
 
+function viewDresses2() {
+  let dresses = [t7, t8, t9, t10];
   for (i=0; i < elms.length; i++){
     if (elms[i] == box2){
       show_elm(box2);
@@ -169,9 +148,12 @@ function viewDresses2() {
       hide_elm(elms[i]);
     }
   };
+  for (i=0; i < dresses.length; i++){
+    moveDress(dresses[i], container2);
+  }
 };
 function viewDresses3() {
-
+  let dresses = [t12, t13, t14, t15];
   for (i=0; i < elms.length; i++){
     if (elms[i] == box3){
       show_elm(box3);
@@ -179,9 +161,12 @@ function viewDresses3() {
       hide_elm(elms[i]);
     }
   };
+  for (i=0; i < dresses.length; i++){
+    moveDress(dresses[i], container3);
+  }
 };
 function viewDresses4() {
-
+  let dresses = [t22, t23,t24];
   for (i=0; i < elms.length; i++){
     if (elms[i] == box4){
       show_elm(box4);
@@ -189,9 +174,13 @@ function viewDresses4() {
       hide_elm(elms[i]);
     }
   };
+  for (i=0; i < dresses.length; i++){
+    moveDress(dresses[i], container4);
+  }
 };
-function viewDresses5() {
 
+function viewDresses5() {
+  let dresses= [t16a, t17, t19, t20];
   for (i=0; i < elms.length; i++){
     if (elms[i] == box5){
       show_elm(box5);
@@ -199,6 +188,9 @@ function viewDresses5() {
       hide_elm(elms[i]);
     }
   };
+  for (i=0; i < dresses.length; i++){
+    moveDress(dresses[i], container5);
+  }
 };
 
 one.addEventListener("click", viewDresses1);
