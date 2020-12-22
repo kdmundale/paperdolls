@@ -40,7 +40,7 @@ nav {
   background-color: rgba(173,109,104,.9);
 }
 
-#box1, #box2, #box3, #box4, #box5 {
+#box1, #box2, #box3, #box4, #box5, #box6 {
   position: fixed;
   top: 50px; bottom:50px;
   left: 0; right: 0;
@@ -57,6 +57,16 @@ nav {
   position: absolute;
   height: 38vh;
   z-index: 10;
+}
+
+.torchy-dress6 {
+  position: absolute;
+  height: 41vh;
+  z-index: 10;
+}
+
+#t31 {
+  height:39vh;
 }
 
 #t20 {
@@ -93,6 +103,11 @@ background-image: url("images/t1.png");
 
 #five {
   background-image: url("images/t5.png");
+
+}
+
+#six {
+  background-image: url("images/t6.png");
 
 }
 
@@ -165,7 +180,14 @@ background-image: url("images/t1.png");
     background-color: rgba(245, 143, 122,.7);
   }
 
-  #dress-box, #dress-box2, #dress-box3, #dress-box1, #dress-box4, #dress-box5 {
+  #dress-box6{
+    position: fixed;
+    top: 90px; bottom:90px;
+    left: 50px; right: 50px;
+    background-color: rgba(245, 143, 122,.7);
+  }
+
+  #dress-box, #dress-box2, #dress-box3, #dress-box1, #dress-box4, #dress-box5, #dress-box6 {
     top: 200px; bottom: 100px;
   }
 
@@ -265,7 +287,7 @@ background-image: url("images/t1.png");
     font-size: 35px;
   }
 
-  #dress-box, #dress-box2, #dress-box3, #dress-box4, #dress-box5 {
+  #dress-box, #dress-box2, #dress-box3, #dress-box4, #dress-box5, #dress-box6 {
     top: 100px; bottom: 20px;
   }
   .torchy {
@@ -302,11 +324,11 @@ background-image: url("images/t1.png");
     height: 50vh;
   }
 
-  #t1,#t8,  #t12, #t23, #t16a{
+  #t1,#t8,  #t12, #t23, #t16a, #t31{
     top:20%; left:10%;
     z-index: 5;
   }
-  #t2,#t13, #t24, #t17{
+  #t2,#t13, #t24, #t17, #t32{
     top:30%; left:15%;
     z-index: 6;
   }
@@ -314,7 +336,7 @@ background-image: url("images/t1.png");
     top:40%; left:20%;
     z-index: 7;
   }
-  #t4, #t7,#t15, #t19 {
+  #t4, #t7,#t15, #t19, #t33 {
     top:50%; left:25%;
     z-index: 8;
   }

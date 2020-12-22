@@ -18,11 +18,17 @@ let t20 = document.querySelector("#t20");
 let t22 = document.querySelector("#t22");
 let t23 = document.querySelector("#t23");
 let t24 = document.querySelector("#t24");
+let t31 = document.querySelector("#t31");
+let t32 = document.querySelector("#t32");
+let t33 = document.querySelector("#t33");
+
 let container = document.querySelector("#dress-box");
 let container2 = document.querySelector("#dress-box2");
 let container3 = document.querySelector("#dress-box3");
 let container4 = document.querySelector("#dress-box4");
 let container5 = document.querySelector("#dress-box5");
+let container6 = document.querySelector("#dress-box6");
+
 
 function moveDress(dragItem, container) {
 
@@ -114,6 +120,8 @@ let box2 = document.getElementById("box2");
 let box3 = document.getElementById("box3");
 let box4 = document.getElementById("box4");
 let box5 = document.getElementById("box5");
+let box6 = document.getElementById("box6");
+
 let intro= document.getElementById("intro");
 
 
@@ -122,8 +130,9 @@ let two = document.getElementById("two");
 let three = document.getElementById("three");
 let four = document.getElementById("four");
 let five= document.getElementById("five");
+let six= document.getElementById("six");
 
-let elms = [box1, box2, box3, box4, box5, intro];
+let elms = [box1, box2, box3, box4, box5, box6, intro];
 
 function viewDresses1() {
   let dresses= [t1, t2, t3, t4, t5];
@@ -193,8 +202,23 @@ function viewDresses5() {
   }
 };
 
+function viewDresses6() {
+  let dresses= [t31, t32, t33];
+  for (i=0; i < elms.length; i++){
+    if (elms[i] == box6){
+      show_elm(box6);
+    } else {
+      hide_elm(elms[i]);
+    }
+  };
+  for (i=0; i < dresses.length; i++){
+    moveDress(dresses[i], container6);
+  }
+};
+
 one.addEventListener("click", viewDresses1);
 two.addEventListener("click", viewDresses2);
 three.addEventListener("click", viewDresses3);
 four.addEventListener("click", viewDresses4);
 five.addEventListener("click", viewDresses5);
+six.addEventListener("click", viewDresses6);
