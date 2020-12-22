@@ -217,19 +217,19 @@ background-image: url("images/t1.png");
   }
 
   #t1,#t8,  #t12, #t23, #t16a{
-    top:20%; left:10%;
+    top:20%; left:5%;
     z-index: 5;
   }
   #t2,#t13, #t24, #t17{
-    top:30%; left:15%;
+    top:30%; left:10%;
     z-index: 6;
   }
   #t3,#t9,#t14, #t22, #t20{
-    top:40%; left:20%;
+    top:40%; left:15%;
     z-index: 7;
   }
   #t4, #t7,#t15, #t19 {
-    top:50%; left:25%;
+    top:50%; left:20%;
     z-index: 8;
   }
 
