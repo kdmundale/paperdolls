@@ -20,12 +20,24 @@ nav {
   background: linear-gradient();
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   position: fixed;
   top: 10px;
   left:0; right: 0;
   z-index: 30;
+}
+
+#intro-box {
+  display: block;
+  margin: 100px auto;
+  width: 90%;
+  background-color: rgba(252, 252, 212,.7);
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgba(173,109,104,.9);
 }
 
 #box1, #box2, #box3, #box4, #box5 {
@@ -35,34 +47,20 @@ nav {
   display: none;
 }
 
-.torchy-dress {
-  height: 320px;
-  position: fixed;
-  z-index: 10;
-}
-
-.torchy-dress2 {
-  height: 260px;
-  position: fixed;
-  z-index: 10;
-}
-
-.torchy-dress3 {
-  height: 260px;
-  position: fixed;
-  z-index: 10;
-}
-
-.torchy-dress4 {
-  height: 260px;
+.torchy-dress,.torchy-dress2,.torchy-dress3,.torchy-dress4 {
+  height: 40vh;
   position: fixed;
   z-index: 10;
 }
 
 .torchy-dress5 {
-  height: 260px;
-  position: fixed;
+  position: absolute;
+  height: 38vh;
   z-index: 10;
+}
+
+#t20 {
+  height: 50vh;
 }
 
 .torchy-hat {
@@ -79,44 +77,43 @@ nav {
   position: fixed;
   top: 400px; left:75%;
 }
+#one {
+background-image: url("images/t1.png");
+}
+#two {
+  background-image: url("images/t2.png");
+}
+#three {
+  background-image: url("images/t3.png");
+}
 
-@media only screen and (min-width: 300px){
+#four {
+  background-image: url("images/t4.png");
+}
+
+#five {
+  background-image: url("images/t5.png");
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px){
 
   .button-dress {
-
+    background-color: rgba(251,250,222,1);
     border: 2px solid rgb(93,154,49);
     box-shadow: 0px 0px 10px 5px rgb(93,154,49);
     border-radius: 0%;
     text-align: center;
     font-size: 40px;
-    height: 125px;
-    width:150px;
+    height: 15vh;
+    width:15vw;
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  #one {
-  background-image: url("images/t1.png");
-}
-  #two {
-    background-image: url("images/t2.png");
-  }
-  #three {
-    background-image: url("images/t3.png");
-  }
-
-  #four {
-    background-image: url("images/t4.png");
-  }
-
-  #five {
-    background-image: url("images/t5.png");
-
-  }
-
   #intro-box {
     display: block;
-    margin: 100px auto;
+    margin: 30% auto;
     width: 90%;
     background-color: rgba(252, 252, 212,.7);
     color: white;
@@ -174,6 +171,7 @@ nav {
 
   .torchy {
     filter: brightness(1.2);
+    height: 50vh;
     top: 20%;
     position: absolute;
     left:50%;
@@ -183,7 +181,7 @@ nav {
   .torchy-dress {
     filter: brightness(1.2);
     position: absolute;
-    height: 41%;
+    height: 40vh;
   }
 
   .torchy-dress2{
@@ -191,22 +189,11 @@ nav {
     height: 34%;
   }
 
-  .torchy-dress3,.torchy-dress4, .torchy-dress5 {
+  .torchy-dress3,.torchy-dress4 {
     position: absolute;
-    height: 34%;
+    height: 40vh;
   }
 
-  #t20 {
-    height: 45%;
-  }
-
-  #t16a {
-    height:36%;
-  }
-
-  #t, #t6, #t11, #t21, #t16  {
-    height: 55%;
-  }
   #t1,#t8,  #t12, #t23, #t16a{
     top:20%; left:10%;
     z-index: 5;
@@ -223,9 +210,7 @@ nav {
     top:50%; left:25%;
     z-index: 8;
   }
-  #t19, #t17{
-    height:35%;
-  }
+
   #t5 {
     height: 7%;
     top:300px; left:10%;
@@ -236,17 +221,111 @@ nav {
   }
 }
 
-@media only screen and (max-width:719px) {
+@media screen and (min-width:520px) {
+
+  .torchy {
+    height: 60vh;
+    filter: brightness(1.2);
+    top: 20%;
+    position: absolute;
+    left:60%;
+    z-index: 4;
+  }
 
   .button-dress {
-    border-radius: 50%;
-    width:100px;
-    padding: 40px;
-    font-size: 30px;
+    background-color: rgba(251,250,222,1);
+    border: 2px solid rgb(93,154,49);
+    box-shadow: 0px 0px 10px 5px rgb(93,154,49);
+    border-radius: 0%;
+    text-align: center;
+    height: 12vh;
+    width:15vw;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #intro-box {
+    display: block;
+    margin: 30% auto;
+    width: 90%;
+    background-color: rgba(252, 252, 212,.7);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: rgba(173,109,104,.9);
+  }
+
+  #intro-box h1{
+    padding: 50px;
+    font-size: 70px;
+  }
+  #intro-box p {
+    padding: 10px;
+    font-size: 35px;
   }
 
   #dress-box, #dress-box2, #dress-box3, #dress-box4, #dress-box5 {
     top: 100px; bottom: 20px;
+  }
+  .torchy {
+    filter: brightness(1.2);
+    top: 20%;
+    position: absolute;
+    left:50%;
+    z-index: 4;
+  }
+
+  .torchy-dress {
+    filter: brightness(1.2);
+    position: absolute;
+    height: 44vh;
+  }
+
+  .torchy-dress2{
+    position: absolute;
+    height: 37vh;
+  }
+
+  .torchy-dress3,.torchy-dress4 {
+    position: absolute;
+    height: 40vh;
+  }
+
+  .torchy-dress5 {
+    position: absolute;
+    height: 37vh;
+    z-index: 10;
+  }
+
+  #t20 {
+    height: 50vh;
+  }
+
+  #t1,#t8,  #t12, #t23, #t16a{
+    top:20%; left:10%;
+    z-index: 5;
+  }
+  #t2,#t13, #t24, #t17{
+    top:30%; left:15%;
+    z-index: 6;
+  }
+  #t3,#t9,#t14, #t22, #t20{
+    top:40%; left:20%;
+    z-index: 7;
+  }
+  #t4, #t7,#t15, #t19 {
+    top:50%; left:25%;
+    z-index: 8;
+  }
+
+  #t5 {
+    height: 7%;
+    top:300px; left:10%;
+  }
+  #t10 {
+    height:5%;
+    top:300px; left:10%;
   }
 
 
