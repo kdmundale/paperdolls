@@ -48,7 +48,6 @@ nav {
 }
 
 .torchy-dress,.torchy-dress2,.torchy-dress3,.torchy-dress4 {
-  height: 40vh;
   position: fixed;
   z-index: 10;
 }
@@ -60,7 +59,9 @@ nav {
 }
 
 .torchy-dress6 {
+  display:none;
   position: absolute;
+  top: 20%; left: 20%;
   height: 41vh;
   z-index: 10;
 }
@@ -75,17 +76,19 @@ nav {
 
 .torchy-hat {
   position: fixed;
+  display: none;
+  top:20%; left:20%;
   z-index: 10;
 }
 
 #logo {
   position: fixed;
-  top:300px;left:75%;
+  bottom:8%;left:45%;
 }
 
 #sig {
   position: fixed;
-  top: 400px; left:75%;
+  bottom:4%; left:45%;
 }
 #one {
 background-image: url("images/t1.png");
@@ -108,7 +111,104 @@ background-image: url("images/t1.png");
 
 #six {
   background-image: url("images/t6.png");
+}
 
+.dress-button-holder{
+  position: absolute;
+  top: 350px;
+  left:10px;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dress-show{
+  background-repeat: no-repeat;
+  background-position: center;
+  height:250px;
+  width:200px;
+}
+
+#b-t1 {
+  background-image: url("images/torchy1.png");
+}
+
+#b-t2 {
+  background-image: url("images/torchy2.png");
+}
+
+#b-t3{
+  background-image: url("images/torchy3.png");
+}
+
+#b-t4{
+  background-image: url("images/torchy4.png");
+}
+#b-t5{
+  background-image: url("images/torchy5.png");
+}
+
+#b-t7{
+  background-image: url("images/torchy7.png");
+}
+
+#b-t8{
+  background-image: url("images/torchy8.png");
+}
+
+#b-t9{
+  background-image: url("images/torchy9.png");
+}
+#b-t10{
+  background-image: url("images/torchy10.png");
+}
+
+#b-t12 {
+  background-image: url("images/torchy12.png");
+}
+
+#b-t13 {
+  background-image: url("images/torchy13.png");
+}
+
+#b-t14 {
+  background-image: url("images/torchy14.png");
+}
+
+#b-t15 {
+  background-image: url("images/torchy15.png");
+}
+
+#b-t22 {
+  background-image: url("images/torchy22.png");
+}
+#b-t23 {
+  background-image: url("images/torchy23.png");
+}
+#b-t24 {
+  background-image: url("images/torchy24.png");
+}
+
+#b-t18 {
+  background-image: url("images/torchy18.png");
+}
+#b-t17 {
+  background-image: url("images/torchy17.png");
+}
+#b-t19 {
+  background-image: url("images/torchy19.png");
+}
+#b-t20 {
+  background-image: url("images/torchy20.png");
+}
+#b-t31 {
+  background-image: url("images/torchy31.png");
+}
+#b-t32 {
+  background-image: url("images/torchy32.png");
+}
+#b-t33 {
+  background-image: url("images/torchy33.png");
 }
 
 @media only screen and (min-width: 300px) and (max-width: 519px){
@@ -124,6 +224,16 @@ background-image: url("images/t1.png");
     width:15vw;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .dress-button-holder{
+    position: absolute;
+    top: 10%;
+    left:10px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #intro-box {
@@ -184,15 +294,14 @@ background-image: url("images/t1.png");
     position: fixed;
     top: 90px; bottom:90px;
     left: 50px; right: 50px;
-    background-color: rgba(245, 143, 122,.7);
+    background-color: rgba(138, 212, 182,.7);
   }
 
-  #dress-box, #dress-box2, #dress-box3, #dress-box1, #dress-box4, #dress-box5, #dress-box6 {
+  .dress-box-class{
     top: 200px; bottom: 100px;
   }
 
   .torchy {
-    filter: brightness(1.2);
     height: 50vh;
     top: 20%;
     position: absolute;
@@ -201,57 +310,57 @@ background-image: url("images/t1.png");
   }
 
   .torchy-dress {
+    display: none;
     filter: brightness(1.2);
     position: absolute;
     height: 40vh;
+    z-index: 5;
+    top:20%; left:20%;
   }
 
   .torchy-dress2{
+    display: none;
     position: absolute;
     height: 34%;
+    z-index: 5;
+    top:20%; left:20%;
   }
 
   .torchy-dress3,.torchy-dress4 {
+    display: none;
     position: absolute;
     height: 40vh;
-  }
-
-  #t1,#t8,  #t12, #t23, #t16a{
-    top:20%; left:5%;
     z-index: 5;
-  }
-  #t2,#t13, #t24, #t17{
-    top:30%; left:10%;
-    z-index: 6;
-  }
-  #t3,#t9,#t14, #t22, #t20{
-    top:40%; left:15%;
-    z-index: 7;
-  }
-  #t4, #t7,#t15, #t19 {
-    top:50%; left:20%;
-    z-index: 8;
+    top:20%; left:20%;
   }
 
-  #t5 {
-    height: 7%;
-    top:300px; left:10%;
-  }
-  #t10 {
-    height:5%;
-    top:300px; left:10%;
-  }
 }
 
 @media screen and (min-width:520px) {
 
   .torchy {
-    height: 60vh;
-    filter: brightness(1.2);
-    top: 20%;
+    height: 1300px;
+    top: 10%;
     position: absolute;
-    left:60%;
+    left:45%;
     z-index: 4;
+  }
+  #t11, #t16{
+    left: 35%;
+  }
+
+  #t21 {
+    left:60%;
+  }
+
+  .dress-button-holder{
+    position: absolute;
+    top: 10%;
+    left:10px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .button-dress {
@@ -287,66 +396,94 @@ background-image: url("images/t1.png");
     font-size: 35px;
   }
 
-  #dress-box, #dress-box2, #dress-box3, #dress-box4, #dress-box5, #dress-box6 {
-    top: 100px; bottom: 20px;
+  #dress-box{
+    position: fixed;
+    background-color: rgba(252, 252, 212,.7);
   }
-  .torchy {
-    filter: brightness(1.2);
-    top: 20%;
-    position: absolute;
-    left:50%;
-    z-index: 4;
+
+  #dress-box2{
+    position: fixed;
+    background-color: rgba(242, 171, 133,.7);
+  }
+
+  #dress-box3{
+    position: fixed;
+    background-color: rgba(252, 224, 157,.7);
+  }
+
+  #dress-box4{
+    position: fixed;
+    background-color: rgba(168, 212, 138,.7);
+  }
+
+  #dress-box5{
+    position: fixed;
+    background-color: rgba(245, 143, 122,.7);
+  }
+
+  #dress-box6{
+    position: fixed;
+    background-color: rgba(138, 212, 182,.7);
+  }
+
+  .dress-box-class {
+    top: 300px; bottom: 20px;
+    left:5px; right:5px;
   }
 
   .torchy-dress {
     filter: brightness(1.2);
     position: absolute;
-    height: 44vh;
+    height: 1000px;
+    z-index: 5;
+    top:20%; left:20%;
+    display: none;
   }
 
   .torchy-dress2{
     position: absolute;
-    height: 37vh;
+    display: none;
+    height: 800px;
+    position: absolute;
+    z-index: 5;
+    top:20%; left:20%;
   }
 
   .torchy-dress3,.torchy-dress4 {
+    display: none;
     position: absolute;
-    height: 40vh;
+    z-index: 5;
+    top:20%; left:20%;
+    position: absolute;
+    height: 800px;
   }
 
   .torchy-dress5 {
     position: absolute;
-    height: 37vh;
+    top:20%; left:20%;
+    display: none;
+    height: 820px;
+    z-index: 10;
+  }
+
+  .torchy-dress6 {
+    position: absolute;
+    top:20%; left:20%;
+    display: none;
+    height: 840px;
     z-index: 10;
   }
 
   #t20 {
-    height: 50vh;
-  }
-
-  #t1,#t8,  #t12, #t23, #t16a, #t31{
-    top:20%; left:10%;
-    z-index: 5;
-  }
-  #t2,#t13, #t24, #t17, #t32{
-    top:30%; left:15%;
-    z-index: 6;
-  }
-  #t3,#t9,#t14, #t22, #t20{
-    top:40%; left:20%;
-    z-index: 7;
-  }
-  #t4, #t7,#t15, #t19, #t33 {
-    top:50%; left:25%;
-    z-index: 8;
+    height: 1100px;
   }
 
   #t5 {
-    height: 7%;
+    height: 150px;
     top:300px; left:10%;
   }
   #t10 {
-    height:5%;
+    height: 150px;
     top:300px; left:10%;
   }
 
