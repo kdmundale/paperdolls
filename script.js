@@ -296,7 +296,7 @@ bt35.addEventListener("click", function() { selectDress(t35, dresses7); }) ;
 bt36.addEventListener("click", function() { selectDress(t36, dresses7); }) ;
 bt37.addEventListener("click", function() { selectDress(t37, dresses7); }) ;
 bt38.addEventListener("click", function() { selectDress(t38, dresses7); }) ;
-bt39.addEventListener("click", function() { selectDress(t39, dresses7); }) ;
+bt39.addEventListener("click", function() { selectHat(t39); }) ;
 bt41.addEventListener("click", function() { selectDress(t41, dresses8); }) ;
 bt42.addEventListener("click", function() { selectDress(t42, dresses8); }) ;
 bt43.addEventListener("click", function() { selectDress(t43, dresses8); }) ;
