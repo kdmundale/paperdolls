@@ -43,6 +43,14 @@ let t64 = document.querySelector("#t64");
 let t65 = document.querySelector("#t65");
 let t66 = document.querySelector("#t66");
 let t67 = document.querySelector("#t67");
+let t71 = document.querySelector("#t71");
+let t72 = document.querySelector("#t72");
+let t73 = document.querySelector("#t73");
+let t74 = document.querySelector("#t74");
+let t81 = document.querySelector("#t81");
+let t82 = document.querySelector("#t82");
+let t83 = document.querySelector("#t83");
+let t84 = document.querySelector("#t84");
 
 let container = document.querySelector("#dress-box");
 let container2 = document.querySelector("#dress-box2");
@@ -54,6 +62,8 @@ let container7 = document.querySelector("#dress-box7");
 let container8 = document.querySelector("#dress-box8");
 let container9 = document.querySelector("#dress-box9");
 let container10 = document.querySelector("#dress-box10");
+let container11 = document.querySelector("#dress-box11");
+let container12 = document.querySelector("#dress-box12");
 
 
 function moveDress(dragItem, container) {
@@ -151,6 +161,8 @@ let box7 = document.getElementById("box7");
 let box8 = document.getElementById("box8");
 let box9 = document.getElementById("box9");
 let box10 = document.getElementById("box10");
+let box11 = document.getElementById("box11");
+let box12 = document.getElementById("box12");
 
 let intro= document.getElementById("intro");
 
@@ -164,9 +176,11 @@ let seven= document.getElementById("seven");
 let eight= document.getElementById("eight");
 let nine= document.getElementById("nine");
 let ten= document.getElementById("ten");
+let eleven = document.getElementById("eleven");
+let twelve= document.getElementById("twelve");
 
 
-let elms = [box1, box2, box3, box4, box5, box6,box7,box8,box9,box10, intro];
+let elms = [box1, box2, box3, box4, box5, box6,box7,box8,box9,box10,box11, box12, intro];
 let dresses1= [t1, t2, t3, t4, t5];
 let dresses2 = [t7, t8, t9, t10];
 let dresses3 = [t12, t13, t14, t15];
@@ -177,6 +191,8 @@ let dresses7 =[t35,t36,t37,t38,t39];
 let dresses8 =[t41,t42,t43,t44];
 let dresses9 =[t51,t52,t53,t54,t55,t56];
 let dresses10 =[t61,t62,t63,t64,t65,t66,t67];
+let  dresses11 =[t71,t72,t73,t74];
+let dresses12=[t81,t82,t83,t84];
 
 function viewDresses(box, dress_list, cont) {
   for (i=0; i < elms.length; i++){
@@ -236,8 +252,16 @@ let bt64 = document.getElementById("b-t64");
 let bt65 = document.getElementById("b-t65");
 let bt66 = document.getElementById("b-t66");
 let bt67 = document.getElementById("b-t67");
+let bt71 = document.getElementById("b-t71");
+let bt72 = document.getElementById("b-t72");
+let bt73 = document.getElementById("b-t73");
+let bt74 = document.getElementById("b-t74");
+let bt81 = document.getElementById("b-t81");
+let bt82 = document.getElementById("b-t82");
+let bt83 = document.getElementById("b-t83");
+let bt84 = document.getElementById("b-t84");
 
-let allDresses = [t1,t2,t3,t4,t7,t8,t9, t13, t13, t14, t15, t22, t23, t24, t18, t17, t19, t20, t31, t32, t33, t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t67];
+let allDresses = [t1,t2,t3,t4,t7,t8,t9,t13,t13,t14,t15,t22,t23,t24,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t67,t71,t72,t73,t74, t81,t82,t83,t84];
 
 function selectDress(dress, dress_list){
   for (i=0; i < dress_list.length; i++){
@@ -268,6 +292,8 @@ seven.addEventListener("click", function() { viewDresses(box7, dresses7, contain
 eight.addEventListener("click", function() { viewDresses(box8, dresses8, container8); }) ;
 nine.addEventListener("click", function() { viewDresses(box9, dresses9, container9); }) ;
 ten.addEventListener("click", function() { viewDresses(box10, dresses10, container10); }) ;
+eleven.addEventListener("click", function() { viewDresses(box11, dresses11, container11); }) ;
+twelve.addEventListener("click", function() { viewDresses(box12, dresses12, container12); }) ;
 
 bt1.addEventListener("click", function() { selectDress(t1, dresses1); }) ;
 bt2.addEventListener("click", function() { selectDress(t2, dresses1); }) ;
@@ -314,3 +340,11 @@ bt64.addEventListener("click", function() { selectDress(t64, dresses10); }) ;
 bt65.addEventListener("click", function() { selectDress(t65, dresses10); }) ;
 bt66.addEventListener("click", function() { selectDress(t66, dresses10); }) ;
 bt67.addEventListener("click", function() { selectDress(t67, dresses10); }) ;
+bt71.addEventListener("click", function() { selectDress(t71, dresses11); }) ;
+bt72.addEventListener("click", function() { selectDress(t72, dresses11); }) ;
+bt73.addEventListener("click", function() { selectDress(t73, dresses11); }) ;
+bt74.addEventListener("click", function() { selectDress(t74, dresses11); }) ;
+bt81.addEventListener("click", function() { selectDress(t81, dresses12); }) ;
+bt82.addEventListener("click", function() { selectDress(t82, dresses12); }) ;
+bt83.addEventListener("click", function() { selectDress(t83, dresses12); }) ;
+bt84.addEventListener("click", function() { selectDress(t84, dresses12); }) ;

@@ -40,7 +40,7 @@ nav {
   background-color: rgba(173,109,104,.9);
 }
 
-#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10 {
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12 {
   position: fixed;
   top: 50px; bottom:50px;
   left: 0; right: 0;
@@ -291,6 +291,30 @@ background-image: url("images/t1.png");
 #b-t67 {
   background-image: url("images/torchy67.png");
 }
+#b-t71 {
+  background-image: url("images/torchy71.png");
+}
+#b-t72 {
+  background-image: url("images/torchy72.png");
+}
+#b-t73 {
+  background-image: url("images/torchy73.png");
+}
+#b-t74 {
+  background-image: url("images/torchy74.png");
+}
+#b-t81 {
+  background-image: url("images/torchy81.png");
+}
+#b-t82 {
+  background-image: url("images/torchy82.png");
+}
+#b-t83 {
+  background-image: url("images/torchy83.png");
+}
+#b-t84 {
+  background-image: url("images/torchy84.png");
+}
 @media only screen and (min-width: 300px) and (max-width: 519px){
 
   .button-dress {
@@ -399,6 +423,19 @@ background-image: url("images/t1.png");
   }
 
   #dress-box10{
+    position: fixed;
+    top: 90px; bottom:90px;
+    left: 50px; right: 50px;
+    background-color: rgba(138, 212, 182,.7);
+  }
+
+  #dress-box11{
+    position: fixed;
+    top: 90px; bottom:90px;
+    left: 50px; right: 50px;
+    background-color: rgba(138, 212, 182,.7);
+  }
+  #dress-box12{
     position: fixed;
     top: 90px; bottom:90px;
     left: 50px; right: 50px;
@@ -549,6 +586,14 @@ background-image: url("images/t1.png");
     position: fixed;
     background-color: rgba(138, 212, 182,.7);
   }
+  #dress-box11{
+    position: fixed;
+    background-color: rgba(138, 212, 182,.7);
+  }
+  #dress-box12{
+    position: fixed;
+    background-color: rgba(138, 212, 182,.7);
+  }
 
   .dress-box-class {
     top: 25%; bottom: 20px;
@@ -671,6 +716,24 @@ background-image: url("images/t1.png");
   }
   #t66{
     height:710px;
+  }
+  .torchy-dress11{
+    position: absolute;
+    top:20%; left:20%;
+    display: none;
+    z-index: 10;
+    height: 620px;
+  }
+  #t71{
+    height: 460px;
+  }
+
+  .torchy-dress12{
+    position: absolute;
+    top:20%; left:20%;
+    display: none;
+    z-index: 10;
+    height: 630px;
   }
 
 
