@@ -517,7 +517,7 @@ background-image: url("images/t1.png");
 
   .torchy-dress12{
     position: absolute;
-    top:20%; left:20%;
+    top:20%; right:10%;
     display: none;
     z-index: 10;
     height:39vh;
