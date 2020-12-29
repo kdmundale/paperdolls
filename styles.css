@@ -687,7 +687,7 @@ background-image: url("images/t1.png");
   }
 
   #t53 {
-    height: 730px;
+    height: 750px;
   }
 
   #t54 {
@@ -796,6 +796,10 @@ background-image: url("images/t1.png");
   .torchy-dress6 {
     top:10%; left:15%;
     height: 645px;
+  }
+
+  #t31 {
+    height: 625px;
   }
 
 
