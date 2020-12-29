@@ -339,7 +339,7 @@ bt63.addEventListener("click", function() { selectDress(t63, dresses10); }) ;
 bt64.addEventListener("click", function() { selectDress(t64, dresses10); }) ;
 bt65.addEventListener("click", function() { selectDress(t65, dresses10); }) ;
 bt66.addEventListener("click", function() { selectDress(t66, dresses10); }) ;
-bt67.addEventListener("click", function() { selectDress(t67, dresses10); }) ;
+bt67.addEventListener("click", function() { selectHat(t67); }) ;
 bt71.addEventListener("click", function() { selectDress(t71, dresses11); }) ;
 bt72.addEventListener("click", function() { selectDress(t72, dresses11); }) ;
 bt73.addEventListener("click", function() { selectDress(t73, dresses11); }) ;
