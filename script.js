@@ -261,7 +261,8 @@ let bt82 = document.getElementById("b-t82");
 let bt83 = document.getElementById("b-t83");
 let bt84 = document.getElementById("b-t84");
 
-let allDresses = [t1,t2,t3,t4,t7,t8,t9,t13,t13,t14,t15,t22,t23,t24,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t67,t71,t72,t73,t74, t81,t82,t83,t84];
+let allDresses = [t1,t2,t3,t4,t7,t8,t9,t13,t13,t14,t15,t22,t23,t24,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84];
+let allHats = [t5,t10,t39,t55,t56,t67];
 
 function selectDress(dress, dress_list){
   for (i=0; i < dress_list.length; i++){
@@ -271,6 +272,7 @@ function selectDress(dress, dress_list){
       hide_elm(dress_list[i]);
     }
   }
+
 };
 
 function selectHat(hat) {
