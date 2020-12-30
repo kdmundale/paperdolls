@@ -409,7 +409,7 @@ background-image: url("images/t1.png");
     position: absolute;
     height: 37vh;
     z-index: 5;
-    top:20%; right:10%;
+    top:20%; right:5%;
   }
 
   #t10 {
@@ -421,7 +421,7 @@ background-image: url("images/t1.png");
     position: absolute;
     height: 38vh;
     z-index: 5;
-    top:20%; right:10%;
+    top:20%; right:5%;
   }
 
   #t24{
@@ -429,7 +429,7 @@ background-image: url("images/t1.png");
   }
   .torchy-dress5 {
     position: absolute;
-    top:20%; right:10%;
+    top:20%; right:5%;
     display: none;
     height: 38vh;
     z-index: 5;
@@ -441,7 +441,7 @@ background-image: url("images/t1.png");
 
   .torchy-dress6 {
     position: absolute;
-    top:20%; right: 10%;
+    top:20%; right: 5%;
     display: none;
     height: 38vh;
     z-index: 5;
@@ -453,7 +453,7 @@ background-image: url("images/t1.png");
 
   .torchy-dress7 {
     position: absolute;
-    top:20%; right: 10%;
+    top:20%; right: 5%;
     display: none;
     z-index: 5;
   }
@@ -475,7 +475,7 @@ background-image: url("images/t1.png");
 
   .torchy-dress8 {
     position: absolute;
-    top:20%; right:10%;
+    top:20%; right:5%;
     display: none;
     z-index: 10;
     height:40vh;
@@ -483,7 +483,7 @@ background-image: url("images/t1.png");
 
   .torchy-dress9 {
     position: absolute;
-    top:20%; right:10%;
+    top:20%; right:5%;
     display: none;
     z-index: 10;
     height:40vh;
@@ -495,7 +495,7 @@ background-image: url("images/t1.png");
 
   .torchy-dress10{
     position: absolute;
-    top:20%; right:10%;
+    top:20%; right:5%;
     display: none;
     height:50vh;
     z-index: 10;
@@ -517,7 +517,7 @@ background-image: url("images/t1.png");
 
   .torchy-dress11{
     position: absolute;
-    top:20%; right:10%;
+    top:20%; right:5%;
     display: none;
     z-index: 10;
     height:38vh;
@@ -528,7 +528,7 @@ background-image: url("images/t1.png");
 
   .torchy-dress12{
     position: absolute;
-    top:20%; right:10%;
+    top:20%; right:5%;
     display: none;
     z-index: 10;
     height:39vh;
