@@ -23,15 +23,25 @@ nav {
   align-items: center;
   justify-content: space-around;
   position: fixed;
-  bottom: 10px;
+  bottom: 15px;
   left: 10px;
   z-index: 30;
+}
+
+footer{
+  background-color: rgba(173,109,104,.9);
+  color:white;
+  text-align: center;
+  display: block;
+  position: absolute;
+  bottom: 0;left:0;right:0;
 }
 
 #intro-box {
   display: block;
   margin: 10% auto;
   width: 90%;
+  padding: 30px;
   color: white;
   font-family: sans-serif;
   text-align: center;
@@ -52,7 +62,7 @@ nav {
 #sig {
   height: 100px;
   position: fixed;
-  top:6%; right:2%;
+  top:10%; right:2%;
 }
 #one {
 background-image: url("images/t1.png");
@@ -347,7 +357,8 @@ background-image: url("images/t1.png");
   }
 
   #intro-box h1{
-    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 50px;
     font-size: 60px;
   }
   #intro-box p {
@@ -363,7 +374,7 @@ background-image: url("images/t1.png");
 
   .torchy {
     height: 60vh;
-    top: 10%;
+    top: 5%;
     position: absolute;
     right:40%;
     z-index: 4;
