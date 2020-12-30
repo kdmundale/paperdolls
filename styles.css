@@ -548,7 +548,13 @@ background-image: url("images/t1.png");
 }
 @media only screen and (min-width: 768px) and (max-width: 1020px){
 
+}
+@media only screen and (min-width: 1021px){
   .torchy {
+    right: 15%;
+  }
+  #t6, #t11, #t16, #t40 {
+    right: 15%;
   }
 
   #t6, #t11, #t16, #t40 {
@@ -557,11 +563,9 @@ background-image: url("images/t1.png");
   .torchy-dress, .torchy-dress2, .torchy-dress3, .torchy-dress4, .torchy-dress5,
   .torchy-dress6, .torchy-dress7, .torchy-dress8, .torchy-dress9, .torchy-dress10,
   .torchy-dress11, .torchy-dress12{
+    left: 15%;
   }
   .torchy-hat {
   }
-}
-@media only screen and (min-width: 1021px){
-
 
 }
