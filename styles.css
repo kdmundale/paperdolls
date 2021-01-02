@@ -16,7 +16,7 @@ body {
   z-index: -10;
 }
 
-nav {
+#torchy-nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -37,7 +37,7 @@ footer{
   bottom: 0;left:0;right:0;
 }
 
-#intro-box {
+#intro-box, .main {
   display: block;
   margin: 10% auto;
   width: 90%;
@@ -65,48 +65,50 @@ footer{
   top:10%; right:2%;
 }
 #one {
-background-image: url("images/t1.png");
+background-image: url("images/torchy/t1.png");
 }
 #two {
-  background-image: url("images/t2.png");
+  background-image: url("images/torchy/t2.png");
 }
 #three {
-  background-image: url("images/t3.png");
+  background-image: url("images/torchy/t3.png");
 }
 
 #four {
-  background-image: url("images/t4.png");
+  background-image: url("images/torchy/t4.png");
 }
 
 #five {
-  background-image: url("images/t5.png");
+  background-image: url("images/torchy/t5.png");
 
 }
 
 #six {
-  background-image: url("images/t6.png");
+  background-image: url("images/torchy/t6.png");
 }
 
 #seven {
-  background-image: url("images/t7.png");
+  background-image: url("images/torchy/t7.png");
 }
 #eight {
-  background-image: url("images/t8.png");
+  background-image: url("images/torchy/t8.png");
 }
 #nine {
-  background-image: url("images/t9.png");
+  background-image: url("images/torchy/t9.png");
 }
 #ten {
-  background-image: url("images/t10.png");
+  background-image: url("images/torchy/t10.png");
 }
 #eleven {
-  background-image: url("images/t11.png");
+  background-image: url("images/torchy/t11.png");
 }
 #twelve {
-  background-image: url("images/t12.png");
+  background-image: url("images/torchy/t12.png");
 }
 
 .dress-show{
+  border: none;
+  background-color: rgba(0,0,0,0);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -116,173 +118,173 @@ background-image: url("images/t1.png");
 }
 
 #b-t1 {
-  background-image: url("images/torchy1.png");
+  background-image: url("images/torchy/torchy1.png");
 }
 
 #b-t2 {
-  background-image: url("images/torchy2.png");
+  background-image: url("images/torchy/torchy2.png");
 }
 
 #b-t3{
-  background-image: url("images/torchy3.png");
+  background-image: url("images/torchy/torchy3.png");
 }
 
 #b-t4{
-  background-image: url("images/torchy4.png");
+  background-image: url("images/torchy/torchy4.png");
 }
 #b-t5{
-  background-image: url("images/torchy5.png");
+  background-image: url("images/torchy/torchy5.png");
 }
 
 #b-t7{
-  background-image: url("images/torchy7.png");
+  background-image: url("images/torchy/torchy7.png");
 }
 
 #b-t8{
-  background-image: url("images/torchy8.png");
+  background-image: url("images/torchy/torchy8.png");
 }
 
 #b-t9{
-  background-image: url("images/torchy9.png");
+  background-image: url("images/torchy/torchy9.png");
 }
 #b-t10{
-  background-image: url("images/torchy10.png");
+  background-image: url("images/torchy/torchy10.png");
 }
 
 #b-t12 {
-  background-image: url("images/torchy12.png");
+  background-image: url("images/torchy/torchy12.png");
 }
 
 #b-t13 {
-  background-image: url("images/torchy13.png");
+  background-image: url("images/torchy/torchy13.png");
 }
 
 #b-t14 {
-  background-image: url("images/torchy14.png");
+  background-image: url("images/torchy/torchy14.png");
 }
 
 #b-t15 {
-  background-image: url("images/torchy15.png");
+  background-image: url("images/torchy/torchy15.png");
 }
 
 #b-t22 {
-  background-image: url("images/torchy22.png");
+  background-image: url("images/torchy/torchy22.png");
 }
 #b-t23 {
-  background-image: url("images/torchy23.png");
+  background-image: url("images/torchy/torchy23.png");
 }
 #b-t24 {
-  background-image: url("images/torchy24.png");
+  background-image: url("images/torchy/torchy24.png");
 }
 
 #b-t18 {
-  background-image: url("images/torchy18.png");
+  background-image: url("images/torchy/torchy18.png");
 }
 #b-t17 {
-  background-image: url("images/torchy17.png");
+  background-image: url("images/torchy/torchy17.png");
 }
 #b-t19 {
-  background-image: url("images/torchy19.png");
+  background-image: url("images/torchy/torchy19.png");
 }
 #b-t20 {
-  background-image: url("images/torchy20.png");
+  background-image: url("images/torchy/torchy20.png");
 }
 #b-t31 {
-  background-image: url("images/torchy31.png");
+  background-image: url("images/torchy/torchy31.png");
 }
 #b-t32 {
-  background-image: url("images/torchy32.png");
+  background-image: url("images/torchy/torchy32.png");
 }
 #b-t33 {
-  background-image: url("images/torchy33.png");
+  background-image: url("images/torchy/torchy33.png");
 }
 #b-t35 {
-  background-image: url("images/torchy35.png");
+  background-image: url("images/torchy/torchy35.png");
 }
 #b-t36 {
-  background-image: url("images/torchy36.png");
+  background-image: url("images/torchy/torchy36.png");
 }
 #b-t37 {
-  background-image: url("images/torchy37.png");
+  background-image: url("images/torchy/torchy37.png");
 }
 #b-t38 {
-  background-image: url("images/torchy38.png");
+  background-image: url("images/torchy/torchy38.png");
 }
 #b-t39 {
-  background-image: url("images/torchy39.png");
+  background-image: url("images/torchy/torchy39.png");
 }
 #b-t41 {
-  background-image: url("images/torchy41.png");
+  background-image: url("images/torchy/torchy41.png");
 }
 #b-t42 {
-  background-image: url("images/torchy42.png");
+  background-image: url("images/torchy/torchy42.png");
 }#b-t43 {
-  background-image: url("images/torchy43.png");
+  background-image: url("images/torchy/torchy43.png");
 }#b-t44 {
-  background-image: url("images/torchy44.png");
+  background-image: url("images/torchy/torchy44.png");
 }
 #b-t51 {
-  background-image: url("images/torchy51.png");
+  background-image: url("images/torchy/torchy51.png");
 }
 #b-t52 {
-  background-image: url("images/torchy52.png");
+  background-image: url("images/torchy/torchy52.png");
 }
 #b-t53 {
-  background-image: url("images/torchy53.png");
+  background-image: url("images/torchy/torchy53.png");
 }
 #b-t54 {
-  background-image: url("images/torchy54.png");
+  background-image: url("images/torchy/torchy54.png");
 }
 #b-t55 {
-  background-image: url("images/torchy55.png");
+  background-image: url("images/torchy/torchy55.png");
 }
 #b-t56 {
-  background-image: url("images/torchy56.png");
+  background-image: url("images/torchy/torchy56.png");
 }
 #b-t61 {
-  background-image: url("images/torchy61.png");
+  background-image: url("images/torchy/torchy61.png");
 }
 #b-t62 {
-  background-image: url("images/torchy62.png");
+  background-image: url("images/torchy/torchy62.png");
 }
 #b-t63 {
-  background-image: url("images/torchy63.png");
+  background-image: url("images/torchy/torchy63.png");
 }
 #b-t64 {
-  background-image: url("images/torchy64.png");
+  background-image: url("images/torchy/torchy64.png");
 }
 #b-t65 {
-  background-image: url("images/torchy65.png");
+  background-image: url("images/torchy/torchy65.png");
 }
 #b-t66 {
-  background-image: url("images/torchy66.png");
+  background-image: url("images/torchy/torchy66.png");
 }
 #b-t67 {
-  background-image: url("images/torchy67.png");
+  background-image: url("images/torchy/torchy67.png");
 }
 #b-t71 {
-  background-image: url("images/torchy71.png");
+  background-image: url("images/torchy/torchy71.png");
 }
 #b-t72 {
-  background-image: url("images/torchy72.png");
+  background-image: url("images/torchy/torchy72.png");
 }
 #b-t73 {
-  background-image: url("images/torchy73.png");
+  background-image: url("images/torchy/torchy73.png");
 }
 #b-t74 {
-  background-image: url("images/torchy74.png");
+  background-image: url("images/torchy/torchy74.png");
 }
 #b-t81 {
-  background-image: url("images/torchy81.png");
+  background-image: url("images/torchy/torchy81.png");
 }
 #b-t82 {
-  background-image: url("images/torchy82.png");
+  background-image: url("images/torchy/torchy82.png");
 }
 #b-t83 {
-  background-image: url("images/torchy83.png");
+  background-image: url("images/torchy/torchy83.png");
 }
 #b-t84 {
-  background-image: url("images/torchy84.png");
+  background-image: url("images/torchy/torchy84.png");
 }
 #dress-box{
   background-color: rgba(252, 252, 212,.7);
@@ -365,6 +367,15 @@ background-image: url("images/t1.png");
     padding: 10px;
     font-size: 25px;
   }
+  .main h1{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    font-size: 60px;
+  }
+  .main p {
+    padding: 10px;
+    font-size: 25px;
+  }
 
   .dress-box-class {
     position: fixed;
@@ -373,11 +384,18 @@ background-image: url("images/t1.png");
   }
 
   .torchy {
-    height: 60vh;
-    top: 5%;
+    height: 40vh;
+    top: 35%;
     position: absolute;
     right:40%;
     z-index: 4;
+  }
+
+  .select {
+    position: absolute;
+    bottom: 30%; right:10%;
+    z-index: 30;
+    border: 3px solid black;
   }
 
   #t6, #t11, #t16, #t40 {
@@ -388,7 +406,7 @@ background-image: url("images/t1.png");
     position: absolute;
     top: 10%; right: 10%;
     display: none;
-    height: 8vh;
+    height: 4vh;
     z-index: 20;
   }
 
@@ -396,9 +414,9 @@ background-image: url("images/t1.png");
     display: none;
     filter: brightness(1.1);
     position: absolute;
-    height: 43vh;
+    height: 29vh;
     z-index: 5;
-    top:20%; right:5%;
+    top:5%; right:40%;
   }
   #t2, #t3{
     height:45vh;

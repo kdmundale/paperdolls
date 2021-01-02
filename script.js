@@ -181,6 +181,7 @@ let twelve= document.getElementById("twelve");
 
 
 let elms = [box1, box2, box3, box4, box5, box6,box7,box8,box9,box10,box11, box12, intro];
+let figures = [t, t6, t11, t21, t16, t30, t34, t40, t50, t60, t70, t80];
 let dresses1= [t1, t2, t3, t4, t5];
 let dresses2 = [t7, t8, t9, t10];
 let dresses3 = [t12, t13, t14, t15];
