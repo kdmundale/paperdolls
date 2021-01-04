@@ -33,7 +33,7 @@ footer{
   color:white;
   text-align: center;
   display: block;
-  position: absolute;
+  position: fixed;
   bottom: 0;left:0;right:0;
 }
 
