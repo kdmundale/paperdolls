@@ -418,11 +418,11 @@ background-image: url("images/torchy/t1.png");
     z-index: 4;
   }
 
-  .torch{
+  .torch {
     position: absolute;
     height: 35vh;
-    display: none;
     left:30%; top:40%;
+    z-index: 9;
   }
 
 
@@ -608,7 +608,6 @@ background-image: url("images/torchy/t1.png");
   #t83 {
     height:25vh;
   }
-
 }
 
 @media screen and (min-width:520px) {
