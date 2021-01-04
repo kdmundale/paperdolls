@@ -52,6 +52,90 @@ let t82 = document.querySelector("#t82");
 let t83 = document.querySelector("#t83");
 let t84 = document.querySelector("#t84");
 
+let t = document.getElementById("t");
+let t6 =document.getElementById("t6");
+let t11 =document.getElementById("t11");
+let t21 =document.getElementById("t21");
+let t16 =document.getElementById("t16");
+let t30 = document.getElementById("t30");
+let t34 = document.getElementById("t34");
+let t40 = document.getElementById("t40");
+let t50 = document.getElementById("t50");
+let t60 = document.getElementById("t60");
+let t70 = document.getElementById("t70");
+let t80 = document.getElementById("t80");
+
+let t_t1_h = document.getElementById("t_t1_h");
+let t_t1 = document.getElementById("t_t1");
+let t_t4_h = document.getElementById("t_t4_h");
+let t_t4 = document.getElementById("t_t4");
+let t_t2 = document.getElementById("t_t2");
+let t_t3 = document.getElementById("t_t3");
+let t6_t8 = document.getElementById('t6_t8');
+let t6_t7 = document.getElementById('t6_t7');
+let t6_t9 = document.getElementById('t6_t9');
+let t6_t8_h = document.getElementById('t6_t8_h');
+let t6_t7_h = document.getElementById('t6_t7_h');
+let t6_t9_h = document.getElementById('t6_t9_h');
+let t11_12 = document.getElementById("t11_t12");
+let t11_13 = document.getElementById("t11_t13");
+let t11_14 = document.getElementById("t11_t14");
+let t11_15 = document.getElementById("t11_t15");
+let t21_22 = document.getElementById("t21_22");
+let t21_23 = document.getElementById("t21_23");
+let t21_24 = document.getElementById("t21_24");
+let t16_17 = document.getElementById("t16_17");
+let t16_18 = document.getElementById("t16_18");
+let t16_19 = document.getElementById("t16_19");
+let t16_20 = document.getElementById("t16_20");
+let t30_31 = document.getElementById("t30_31");
+let t30_32 = document.getElementById("t30_32");
+let t30_33 = document.getElementById("t30_33");
+let t34_35 = document.getElementById("t34_35");
+let t34_36 = document.getElementById("t34_36");
+let t34_37 = document.getElementById("t34_37");
+let t34_38 = document.getElementById("t34_38");
+let t34_35_h = document.getElementById("t34_35_h");
+let t34_36_h = document.getElementById("t34_36_h");
+let t34_37_h = document.getElementById("t34_37_h");
+let t34_38_h = document.getElementById("t34_38_h");
+let t40_41 = document.getElementById("t40_41");
+let t40_42 = document.getElementById("t40_42");
+let t40_43 = document.getElementById("t40_43");
+let t40_44 = document.getElementById("t40_44");
+let t50_51 = document.getElementById("t50_51");
+let t50_52 = document.getElementById("t50_52");
+let t50_53 = document.getElementById("t50_53");
+let t50_54 = document.getElementById("t50_54");
+let t50_51_h = document.getElementById("t50_51_h");
+let t50_52_h = document.getElementById("t50_52_h");
+let t50_53_h = document.getElementById("t50_53_h");
+let t50_54_h = document.getElementById("t50_54_h");
+let t50_51_h2 = document.getElementById("t50_51_h2");
+let t50_52_h2 = document.getElementById("t50_52_h2");
+let t50_53_h2 = document.getElementById("t50_53_h2");
+let t50_54_h2 = document.getElementById("t50_54_h2");
+let t60_61 = document.getElementById("t60_61");
+let t60_62 = document.getElementById("t60_62");
+let t60_63 = document.getElementById("t60_63");
+let t60_64 = document.getElementById("t60_64");
+let t60_65 = document.getElementById("t60_65");
+let t60_66 = document.getElementById("t60_66");
+let t60_61_h = document.getElementById("t60_61_h");
+let t60_62_h = document.getElementById("t60_62_h");
+let t60_63_h = document.getElementById("t60_63_h");
+let t60_64_h = document.getElementById("t60_64_h");
+let t60_65_h = document.getElementById("t60_65_h");
+let t60_66_h = document.getElementById("t60_66_h");
+let t70_71 = document.getElementById("t70_71");
+let t70_72 = document.getElementById("t70_72");
+let t70_73 = document.getElementById("t70_73");
+let t70_74 = document.getElementById("t70_74");
+let t80_81 = document.getElementById("t80_81");
+let t80_82 = document.getElementById("t80_82");
+let t80_83 = document.getElementById("t80_83");
+let t80_84 = document.getElementById("t80_84");
+
 let container = document.querySelector("#dress-box");
 let container2 = document.querySelector("#dress-box2");
 let container3 = document.querySelector("#dress-box3");
@@ -64,6 +148,7 @@ let container9 = document.querySelector("#dress-box9");
 let container10 = document.querySelector("#dress-box10");
 let container11 = document.querySelector("#dress-box11");
 let container12 = document.querySelector("#dress-box12");
+let body= document.querySelector("body");
 
 
 function moveDress(dragItem, container) {
@@ -182,20 +267,22 @@ let twelve= document.getElementById("twelve");
 
 let elms = [box1, box2, box3, box4, box5, box6,box7,box8,box9,box10,box11, box12, intro];
 let figures = [t, t6, t11, t21, t16, t30, t34, t40, t50, t60, t70, t80];
-let dresses1= [t1, t2, t3, t4, t5];
-let dresses2 = [t7, t8, t9, t10];
-let dresses3 = [t12, t13, t14, t15];
-let dresses4 = [t22, t23,t24];
-let dresses5= [t18, t17, t19, t20];
-let dresses6= [t31, t32, t33];
-let dresses7 =[t35,t36,t37,t38,t39];
-let dresses8 =[t41,t42,t43,t44];
-let dresses9 =[t51,t52,t53,t54,t55,t56];
-let dresses10 =[t61,t62,t63,t64,t65,t66,t67];
-let  dresses11 =[t71,t72,t73,t74];
-let dresses12=[t81,t82,t83,t84];
+let dresses1= [t, t1, t2, t3, t4, t5];
+let dresses2 = [t6, t7, t8, t9, t10];
+let dresses3 = [t11, t12, t13, t14, t15];
+let dresses4 = [t21, t22, t23,t24];
+let dresses5= [t16, t18, t17, t19, t20];
+let dresses6= [t30, t31, t32, t33];
+let dresses7 =[t34, t35,t36,t37,t38,t39];
+let dresses8 =[t40, t41,t42,t43,t44];
+let dresses9 =[t50, t51,t52,t53,t54,t55,t56];
+let dresses10 =[t60, t61,t62,t63,t64,t65,t66,t67];
+let dresses11 =[t70, t71,t72,t73,t74];
+let dresses12=[t80, t81,t82,t83,t84];
+let button_t1= document.getElementById("button_t1");
 
 function viewDresses(box, dress_list, cont) {
+  button_t1.style.display="block";
   for (i=0; i < elms.length; i++){
     if (elms[i] == box){
       show_elm(box);
@@ -262,24 +349,32 @@ let bt82 = document.getElementById("b-t82");
 let bt83 = document.getElementById("b-t83");
 let bt84 = document.getElementById("b-t84");
 
-let allDresses = [t1,t2,t3,t4,t7,t8,t9,t13,t13,t14,t15,t22,t23,t24,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84];
+let allDresses = [t1,t2,t3,t4,t7,t8,t9,t13,t13,t14,t15,t22,t23,t24,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84,t5,t10,t39,t55,t56,t67];
 let allHats = [t5,t10,t39,t55,t56,t67];
 
-function selectDress(dress, dress_list){
+function selectDress( figure, dress, dress_list){
+  show_elm(figure);
   for (i=0; i < dress_list.length; i++){
     if (dress_list[i] == dress){
       show_elm(dress);
+      show_elm(figure);
     } else {
       hide_elm(dress_list[i]);
     }
   }
-
+  // for (i=0; i < ts.length; i++){
+  //   hide_elm(ts[i]);
+  // }
 };
 
-function selectHat(hat) {
+function selectHat(hat, t) {
   if (hat.style.display =="block"){
     hide_elm(hat);
   } else {
+    // for (i=0; i < ts.length; i++){
+    //   hide_elm(ts[i]);
+    // }
+    show_elm(t);
     show_elm(hat);
   }
 };
@@ -298,56 +393,220 @@ ten.addEventListener("click", function() { viewDresses(box10, dresses10, contain
 eleven.addEventListener("click", function() { viewDresses(box11, dresses11, container11); }) ;
 twelve.addEventListener("click", function() { viewDresses(box12, dresses12, container12); }) ;
 
-bt1.addEventListener("click", function() { selectDress(t1, dresses1); }) ;
-bt2.addEventListener("click", function() { selectDress(t2, dresses1); }) ;
-bt3.addEventListener("click", function() { selectDress(t3, dresses1); }) ;
-bt4.addEventListener("click", function() { selectDress(t4, dresses1); }) ;
-bt5.addEventListener("click", function() { selectHat(t5); });
-bt10.addEventListener("click", function() { selectHat(t10); });
-bt7.addEventListener("click", function() { selectDress(t7, dresses2); }) ;
-bt8.addEventListener("click", function() { selectDress(t8, dresses2); }) ;
-bt9.addEventListener("click", function() { selectDress(t9, dresses2); }) ;
-bt12.addEventListener("click", function() { selectDress(t12, dresses3); }) ;
-bt13.addEventListener("click", function() { selectDress(t13, dresses3); }) ;
-bt14.addEventListener("click", function() { selectDress(t14, dresses3); }) ;
-bt15.addEventListener("click", function() { selectDress(t15, dresses3); }) ;
-bt18.addEventListener("click", function() { selectDress(t18, dresses5); }) ;
-bt17.addEventListener("click", function() { selectDress(t17, dresses5); }) ;
-bt19.addEventListener("click", function() { selectDress(t19, dresses5); }) ;
-bt20.addEventListener("click", function() { selectDress(t20, dresses5); }) ;
-bt22.addEventListener("click", function() { selectDress(t22, dresses4); }) ;
-bt23.addEventListener("click", function() { selectDress(t23, dresses4); }) ;
-bt24.addEventListener("click", function() { selectDress(t24, dresses4); }) ;
-bt31.addEventListener("click", function() { selectDress(t31, dresses6); }) ;
-bt32.addEventListener("click", function() { selectDress(t32, dresses6); }) ;
-bt33.addEventListener("click", function() { selectDress(t33, dresses6); }) ;
-bt35.addEventListener("click", function() { selectDress(t35, dresses7); }) ;
-bt36.addEventListener("click", function() { selectDress(t36, dresses7); }) ;
-bt37.addEventListener("click", function() { selectDress(t37, dresses7); }) ;
-bt38.addEventListener("click", function() { selectDress(t38, dresses7); }) ;
-bt39.addEventListener("click", function() { selectHat(t39); }) ;
-bt41.addEventListener("click", function() { selectDress(t41, dresses8); }) ;
-bt42.addEventListener("click", function() { selectDress(t42, dresses8); }) ;
-bt43.addEventListener("click", function() { selectDress(t43, dresses8); }) ;
-bt44.addEventListener("click", function() { selectDress(t44, dresses8); }) ;
-bt51.addEventListener("click", function() { selectDress(t51, dresses9); }) ;
-bt52.addEventListener("click", function() { selectDress(t52, dresses9); }) ;
-bt53.addEventListener("click", function() { selectDress(t53, dresses9); }) ;
-bt54.addEventListener("click", function() { selectDress(t54, dresses9); }) ;
-bt55.addEventListener("click", function() { selectHat(t55); }) ;
-bt56.addEventListener("click", function() { selectHat(t56); }) ;
-bt61.addEventListener("click", function() { selectDress(t61, dresses10); }) ;
-bt62.addEventListener("click", function() { selectDress(t62, dresses10); }) ;
-bt63.addEventListener("click", function() { selectDress(t63, dresses10); }) ;
-bt64.addEventListener("click", function() { selectDress(t64, dresses10); }) ;
-bt65.addEventListener("click", function() { selectDress(t65, dresses10); }) ;
-bt66.addEventListener("click", function() { selectDress(t66, dresses10); }) ;
-bt67.addEventListener("click", function() { selectHat(t67); }) ;
-bt71.addEventListener("click", function() { selectDress(t71, dresses11); }) ;
-bt72.addEventListener("click", function() { selectDress(t72, dresses11); }) ;
-bt73.addEventListener("click", function() { selectDress(t73, dresses11); }) ;
-bt74.addEventListener("click", function() { selectDress(t74, dresses11); }) ;
-bt81.addEventListener("click", function() { selectDress(t81, dresses12); }) ;
-bt82.addEventListener("click", function() { selectDress(t82, dresses12); }) ;
-bt83.addEventListener("click", function() { selectDress(t83, dresses12); }) ;
-bt84.addEventListener("click", function() { selectDress(t84, dresses12); }) ;
+bt1.addEventListener("click", function() { selectDress(t, t1, dresses1); }) ;
+bt2.addEventListener("click", function() { selectDress(t, t2, dresses1); }) ;
+bt3.addEventListener("click", function() { selectDress(t, t3, dresses1); }) ;
+bt4.addEventListener("click", function() { selectDress(t, t4, dresses1); }) ;
+bt5.addEventListener("click", function() { selectHat(t5, t); });
+bt10.addEventListener("click", function() { selectHat(t10, t6); });
+bt7.addEventListener("click", function() { selectDress(t6, t7, dresses2); }) ;
+bt8.addEventListener("click", function() { selectDress(t6, t8, dresses2); }) ;
+bt9.addEventListener("click", function() { selectDress(t6, t9, dresses2); }) ;
+bt12.addEventListener("click", function() { selectDress(t11, t12, dresses3); }) ;
+bt13.addEventListener("click", function() { selectDress(t11, t13, dresses3); }) ;
+bt14.addEventListener("click", function() { selectDress(t11, t14, dresses3); }) ;
+bt15.addEventListener("click", function() { selectDress(t11, t15, dresses3); }) ;
+bt18.addEventListener("click", function() { selectDress(t16, t18, dresses5); }) ;
+bt17.addEventListener("click", function() { selectDress(t16, t17, dresses5); }) ;
+bt19.addEventListener("click", function() { selectDress(t16, t19, dresses5); }) ;
+bt20.addEventListener("click", function() { selectDress(t16, t20, dresses5); }) ;
+bt22.addEventListener("click", function() { selectDress(t21, t22, dresses4); }) ;
+bt23.addEventListener("click", function() { selectDress(t21, t23, dresses4); }) ;
+bt24.addEventListener("click", function() { selectDress(t21, t24, dresses4); }) ;
+bt31.addEventListener("click", function() { selectDress(t30, t31, dresses6); }) ;
+bt32.addEventListener("click", function() { selectDress(t30, t32, dresses6); }) ;
+bt33.addEventListener("click", function() { selectDress(t30, t33, dresses6); }) ;
+bt35.addEventListener("click", function() { selectDress(t34, t35, dresses7); }) ;
+bt36.addEventListener("click", function() { selectDress(t34, t36, dresses7); }) ;
+bt37.addEventListener("click", function() { selectDress(t34, t37, dresses7); }) ;
+bt38.addEventListener("click", function() { selectDress(t34, t38, dresses7); }) ;
+bt39.addEventListener("click", function() { selectHat(t39, t34); }) ;
+bt41.addEventListener("click", function() { selectDress(t40, t41, dresses8); }) ;
+bt42.addEventListener("click", function() { selectDress(t40, t42, dresses8); }) ;
+bt43.addEventListener("click", function() { selectDress(t40, t43, dresses8); }) ;
+bt44.addEventListener("click", function() { selectDress(t40, t44, dresses8); }) ;
+bt51.addEventListener("click", function() { selectDress(t50, t51, dresses9); }) ;
+bt52.addEventListener("click", function() { selectDress(t50, t52, dresses9); }) ;
+bt53.addEventListener("click", function() { selectDress(t50, t53, dresses9); }) ;
+bt54.addEventListener("click", function() { selectDress(t50, t54, dresses9); }) ;
+bt55.addEventListener("click", function() { selectHat(t55, t50); }) ;
+bt56.addEventListener("click", function() { selectHat(t56, t50); }) ;
+bt61.addEventListener("click", function() { selectDress(t60, t61, dresses10); }) ;
+bt62.addEventListener("click", function() { selectDress(t60, t62, dresses10); }) ;
+bt63.addEventListener("click", function() { selectDress(t60, t63, dresses10); }) ;
+bt64.addEventListener("click", function() { selectDress(t60, t64, dresses10); }) ;
+bt65.addEventListener("click", function() { selectDress(t60, t65, dresses10); }) ;
+bt66.addEventListener("click", function() { selectDress(t60, t66, dresses10); }) ;
+bt67.addEventListener("click", function() { selectHat(t67, t60); }) ;
+bt71.addEventListener("click", function() { selectDress(t70, t71, dresses11); }) ;
+bt72.addEventListener("click", function() { selectDress(t70, t72, dresses11); }) ;
+bt73.addEventListener("click", function() { selectDress(t70, t73, dresses11); }) ;
+bt74.addEventListener("click", function() { selectDress(t70, t74, dresses11); }) ;
+bt81.addEventListener("click", function() { selectDress(t80,t81, dresses12); }) ;
+bt82.addEventListener("click", function() { selectDress(t80,t82, dresses12); }) ;
+bt83.addEventListener("click", function() { selectDress(t80,t83, dresses12); }) ;
+bt84.addEventListener("click", function() { selectDress(t80,t84, dresses12); }) ;
+
+
+function showTorchy (torchy, done_torchy){
+  for (i=0; i < allDresses.length; i++){
+    hide_elm(allDresses[i]);
+    hide_elm(torchy);
+    show_elm(done_torchy);
+    moveDress(done_torchy, body);
+  }
+}
+
+function makeSelect (){
+  items =[];
+  for (i=0; i < allDresses.length; i++){
+    if(allDresses[i].style.display =="block"){
+      items.push(allDresses[i]);
+      }
+    }
+  if (items.includes(t1) && items.includes(t5)) {
+    showTorchy(t, t_t1_h);
+  } else if (items.includes(t1)){
+    showTorchy(t, t_t1);
+  } else if (items.includes(t4) && items.includes(t5)) {
+    showTorchy(t, t_t4_h);
+  } else if (items.includes(t4)){
+    showTorchy(t, t_t4);
+  } else if (items.includes(t2) && items.includes(t5)) {
+    showTorchy(t, t_t2_h);
+  } else if (items.includes(t2)){
+    showTorchy(t, t_t2);
+  } else if (items.includes(t3)){
+    showTorchy(t, t_t3);
+  } else if (items.includes(t7) && items.includes(t10)){
+    showTorchy(t6, t6_t7_h);
+  } else if (items.includes(t8) && items.includes(t10)){
+    showTorchy(t6, t6_t8_h);
+  } else if (items.includes(t9) && items.includes(t10)){
+    showTorchy(t6, t6_t9_h);
+  } else if (items.includes(t7)){
+    showTorchy(t6, t6_t7);
+  } else if (items.includes(t8)){
+    showTorchy(t6, t6_t8);
+  } else if (items.includes(t9)){
+    showTorchy(t6, t6_t9);
+  } else if (items.includes(t12)){
+    showTorchy(t11, t11_12);
+  } else if (items.includes(t13)){
+    showTorchy(t11, t11_13);
+  } else if (items.includes(t14)){
+    showTorchy(t11, t11_14);
+  } else if (items.includes(t15)){
+    showTorchy(t11, t11_15);
+  } else if (items.includes(t22)){
+    showTorchy(t21, t21_22);
+  } else if (items.includes(t23)){
+    showTorchy(t21, t21_23);
+  } else if (items.includes(t24)){
+    showTorchy(t21, t21_24);
+  } else if (items.includes(t17)){
+    showTorchy(t16, t16_17);
+  } else if (items.includes(t18)){
+    showTorchy(t16, t16_18);
+  } else if (items.includes(t19)){
+    showTorchy(t16, t16_19);
+  } else if (items.includes(t20)){
+    showTorchy(t16, t16_20);
+  } else if (items.includes(t31)){
+    showTorchy(t30, t30_31);
+  } else if (items.includes(t32)){
+    showTorchy(t30, t30_32);
+  } else if (items.includes(t33)){
+    showTorchy(t30, t30_33);
+  } else if (items.includes(t35) && items.includes(t39)) {
+    showTorchy(t30, t30_35_h);
+  } else if (items.includes(t36) && items.includes(t39)) {
+    showTorchy(t30, t30_36_h);
+  } else if (items.includes(t37) && items.includes(t39)) {
+    showTorchy(t34, t34_37_h);
+  } else if (items.includes(t38) && items.includes(t39)) {
+    showTorchy(t34, t34_38_h);
+  } else if (items.includes(t35)){
+    showTorchy(t34, t34_35);
+  } else if (items.includes(t36)){
+    showTorchy(t34, t34_36);
+  } else if (items.includes(t37)){
+    showTorchy(t34, t34_37);
+  } else if (items.includes(t38)){
+    showTorchy(t34, t34_38);
+  } else if (items.includes(t41)){
+    showTorchy(t40, t40_41);
+  } else if (items.includes(t42)){
+    showTorchy(t40, t40_42);
+  } else if (items.includes(t43)){
+    showTorchy(t40, t40_43);
+  } else if (items.includes(t44)){
+    showTorchy(t40, t40_44);
+  } else if (items.includes(t55) && items.includes(t51)) {
+    showTorchy(t50, t50_51_h);
+  } else if (items.includes(t56) && items.includes(t51)) {
+    showTorchy(t50, t50_51_h2);
+  } else if (items.includes(t55) && items.includes(t52)) {
+    showTorchy(t50, t50_52_h);
+  } else if (items.includes(t56) && items.includes(t52)) {
+    showTorchy(t50, t50_52_h2);
+  } else if (items.includes(t55) && items.includes(t53)) {
+    showTorchy(t50, t50_53_h);
+  } else if (items.includes(t56) && items.includes(t53)) {
+    showTorchy(t50, t50_53_h2);
+  } else if (items.includes(t55) && items.includes(t54)) {
+    showTorchy(t50, t50_54_h);
+  } else if (items.includes(t56) && items.includes(t54)) {
+    showTorchy(t50, t50_54_h2);
+  } else if (items.includes(t51)){
+    showTorchy(t50, t50_51);
+  } else if (items.includes(t52)){
+    showTorchy(t50, t50_52);
+  } else if (items.includes(t53)){
+    showTorchy(t50, t50_53);
+  } else if (items.includes(t54)){
+    showTorchy(t50, t50_54);
+  } else if (items.includes(t61) && items.includes(t67)){
+    showTorchy(t60, t60_61_h);
+  } else if (items.includes(t62) && items.includes(t67)){
+    showTorchy(t60, t60_62_h);
+  } else if (items.includes(t63) && items.includes(t67)){
+    showTorchy(t60, t60_63_h);
+  } else if (items.includes(t64) && items.includes(t67)){
+    showTorchy(t60, t60_64_h);
+  } else if (items.includes(t65) && items.includes(t67)){
+    showTorchy(t60, t60_65_h);
+  } else if (items.includes(t66) && items.includes(t67)){
+    showTorchy(t60, t60_66_h);
+  } else if (items.includes(t61)){
+    showTorchy(t60, t60_61);
+  } else if (items.includes(t62)){
+    showTorchy(t60, t60_62);
+  } else if (items.includes(t63)){
+    showTorchy(t60, t60_63);
+  } else if (items.includes(t64)){
+    showTorchy(t60, t60_64);
+  } else if (items.includes(t65)){
+    showTorchy(t60, t60_65);
+  } else if (items.includes(t66)){
+    showTorchy(t60, t60_66);
+  } else if (items.includes(t71)){
+    showTorchy(t70, t70_71);
+  } else if (items.includes(t72)){
+    showTorchy(t70, t70_72);
+  } else if (items.includes(t73)){
+    showTorchy(t70, t70_73);
+  } else if (items.includes(t74)){
+    showTorchy(t70, t70_74);
+  } else if (items.includes(t81)){
+    showTorchy(t80, t80_81);
+  } else if (items.includes(t82)){
+    showTorchy(t80, t80_82);
+  } else if (items.includes(t83)){
+    showTorchy(t80, t80_83);
+  } else if (items.includes(t84)){
+    showTorchy(t80, t80_84);
+  }
+};
+
+button_t1.addEventListener("click", makeSelect);

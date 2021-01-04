@@ -37,6 +37,33 @@ footer{
   bottom: 0;left:0;right:0;
 }
 
+#main-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+#main-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#t-logo-main {
+  height: 250px;
+  margin: 50px auto;
+}
+
+span{
+  background-color: maroon;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+
 #intro-box, .main {
   display: block;
   margin: 10% auto;
@@ -384,16 +411,32 @@ background-image: url("images/torchy/t1.png");
   }
 
   .torchy {
-    height: 40vh;
-    top: 35%;
+    height: 35vh;
+    top: 20%;
     position: absolute;
-    right:40%;
+    left:55%;
     z-index: 4;
   }
 
-  .select {
+  .torch{
     position: absolute;
-    bottom: 30%; right:10%;
+    height: 35vh;
+    display: none;
+    left:30%; top:40%;
+  }
+
+
+  .select {
+    font-variant: small-caps;
+    color: white;
+    background-color: maroon;
+    display: none;
+    font-size: 2vh;
+    position: absolute;
+    padding: 20px;
+    border-radius: 50%;
+    width: 210px;
+    top:60%; right:4%;
     z-index: 30;
     border: 3px solid black;
   }
@@ -404,7 +447,7 @@ background-image: url("images/torchy/t1.png");
 
   .torchy-hat {
     position: absolute;
-    top: 10%; right: 10%;
+    top: 20%; right: 40%;
     display: none;
     height: 4vh;
     z-index: 20;
@@ -414,149 +457,156 @@ background-image: url("images/torchy/t1.png");
     display: none;
     filter: brightness(1.1);
     position: absolute;
-    height: 29vh;
+    height: 25vh;
     z-index: 5;
-    top:5%; right:40%;
+    top:25%; left:25%;
   }
   #t2, #t3{
-    height:45vh;
+    height:25vh;
   }
 
   .torchy-dress2{
     display: none;
     position: absolute;
-    height: 37vh;
+    height: 20vh;
     z-index: 5;
-    top:20%; right:5%;
+    top:25%; left:25%;
   }
 
   #t10 {
-    height: 7vh;
+    height: 4vh;
   }
 
   .torchy-dress3,.torchy-dress4 {
     display: none;
     position: absolute;
-    height: 38vh;
+    height: 21vh;
     z-index: 5;
-    top:20%; right:5%;
+    top:25%; left:25%;
   }
 
   #t24{
-    height:36vh;
+    height:20vh;
   }
   .torchy-dress5 {
     position: absolute;
-    top:20%; right:5%;
+    top:25%; left:25%;
     display: none;
-    height: 38vh;
+    height: 20vh;
     z-index: 5;
   }
 
   #t20 {
-    height:50vh;
+    height:34vh;
   }
 
   .torchy-dress6 {
     position: absolute;
-    top:20%; right: 5%;
+    top:25%; left:25%;
     display: none;
-    height: 38vh;
+    height: 20vh;
     z-index: 5;
   }
 
   #t31 {
-    height:37vh;
+    height:20vh;
   }
 
   .torchy-dress7 {
     position: absolute;
-    top:20%; right: 5%;
+    top:25%; left:25%;
     display: none;
     z-index: 5;
   }
 
   #t35 {
-    height: 42vh;
+    height: 26vh;
   }
   #t36 {
-    height:40vh;
+    height:25vh;
   }
 
   #t37, #t38 {
-    height: 49vh;
+    height: 29vh;
   }
 
   #t39 {
-    height: 12vh;
+    height: 7vh;
   }
 
   .torchy-dress8 {
     position: absolute;
-    top:20%; right:5%;
+    top:25%; left:25%;
     display: none;
-    z-index: 10;
-    height:40vh;
+    z-index: 5;
+    height:24vh;
   }
 
   .torchy-dress9 {
     position: absolute;
-    top:20%; right:5%;
+    top:25%; left:25%;
     display: none;
-    z-index: 10;
-    height:40vh;
+    z-index: 5;
+    height:25vh;
   }
 
   #t53 {
-    height:45vh;
+    height:28vh;
+  }
+
+  #t55, #t56{
+    height: 6vh;
   }
 
   .torchy-dress10{
     position: absolute;
-    top:20%; right:5%;
+    top:25%; left:25%;
     display: none;
-    height:50vh;
+    height:29vh;
     z-index: 10;
   }
 
   #t62{
-    height:29vh;
+    height:17vh;
   }
   #t63,#t64{
-    height:39vh;
+    height:22vh;
   }
   #t65{
-    height:42vh;
+    height:25vh;
   }
   #t66{
-    height: 41vh;
+    height: 24vh;
   }
 
 
   .torchy-dress11{
     position: absolute;
-    top:20%; right:5%;
+    top:25%; left:25%;
     display: none;
     z-index: 10;
-    height:38vh;
+    height:23vh;
   }
   #t71{
-    height:28vh;
+    height:15vh;
+  }
+  #t74 {
+    height: 22vh;
   }
 
   .torchy-dress12{
     position: absolute;
-    top:20%; right:5%;
+    top:25%; left:25%;
     display: none;
     z-index: 10;
-    height:39vh;
+    height:22vh;
   }
 
   #t84 {
-    height: 41vh;
+    height: 23vh;
   }
   #t83 {
-    height:40vh;
+    height:25vh;
   }
 
 }
