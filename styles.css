@@ -155,7 +155,7 @@ background-image: url("images/torchy/t1.png");
 .original{
   border: none;
   position: fixed;
-  top:5%; left:20%;
+  top:10%; left:20%;
   background-color: rgba(0,0,0,0);
   background-repeat: no-repeat;
   background-size: contain;
