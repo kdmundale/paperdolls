@@ -18,6 +18,8 @@ let t20 = document.querySelector("#t20");
 let t22 = document.querySelector("#t22");
 let t23 = document.querySelector("#t23");
 let t24 = document.querySelector("#t24");
+let t25 = document.querySelector("#t25");
+
 let t31 = document.querySelector("#t31");
 let t32 = document.querySelector("#t32");
 let t33 = document.querySelector("#t33");
@@ -79,6 +81,16 @@ let container11 = document.querySelector("#dress-box11");
 let container12 = document.querySelector("#dress-box12");
 let body= document.querySelector("body");
 
+let t_org = document.getElementById("t_org");
+let t6_org = document.getElementById("t6_org");
+let t11_org = document.getElementById("t11_org");
+let t16_org = document.getElementById("t16_org");
+let t30_org = document.getElementById("t30_org");
+let t21_org = document.getElementById("t21_org");
+let t34_org = document.getElementById("t34_org");
+let t40_org = document.getElementById("t40_org");
+let t50_org = document.getElementById("t50_org");
+let t60_org = document.getElementById("t60_org");
 
 function moveDress(dragItem, container) {
   console.log(dragItem);
@@ -200,7 +212,7 @@ let figures = [t, t6, t11, t21, t16, t30, t34, t40, t50, t60, t70, t80];
 let dresses1= [t, t1, t2, t3, t4, t5];
 let dresses2 = [t6, t7, t8, t9, t10];
 let dresses3 = [t11, t12, t13, t14, t15];
-let dresses4 = [t21, t22, t23,t24];
+let dresses4 = [t21, t22, t23,t24,t25];
 let dresses5= [t16, t18, t17, t19, t20];
 let dresses6= [t30, t31, t32, t33];
 let dresses7 =[t34, t35,t36,t37,t38,t39];
@@ -245,6 +257,8 @@ let bt20 = document.getElementById("b-t20");
 let bt22 = document.getElementById("b-t22");
 let bt23 = document.getElementById("b-t23");
 let bt24 = document.getElementById("b-t24");
+let bt25 = document.getElementById("b-t25");
+
 let bt31 = document.getElementById("b-t31");
 let bt32 = document.getElementById("b-t32");
 let bt33 = document.getElementById("b-t33");
@@ -279,7 +293,7 @@ let bt82 = document.getElementById("b-t82");
 let bt83 = document.getElementById("b-t83");
 let bt84 = document.getElementById("b-t84");
 
-let allDresses = [t1,t2,t3,t4,t7,t8,t9,t13,t13,t14,t15,t22,t23,t24,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84,t5,t10,t39,t55,t56,t67];
+let allDresses = [t1,t2,t3,t4,t7,t8,t9,t13,t13,t14,t15,t22,t23,t24,t25,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84,t5,t10,t39,t55,t56,t67];
 let allHats = [t5,t10,t39,t55,t56,t67];
 
 function selectDress( figure, dress, dress_list){
@@ -309,6 +323,66 @@ function selectHat(hat, t) {
   }
 };
 
+function show_orig(src, org_id) {
+  let org = document.createElement("img");
+  org.classList.add("org_show");
+  org.src= src;
+  org.id=org_id;
+  body.appendChild(org);
+};
+
+function remove_org(org_id){
+  obj = document.getElementById(org_id);
+  obj.remove();
+};
+
+function viewOrg (org_id, src){
+  let element = document.getElementById(org_id);
+  if (element != null) {
+    remove_org(org_id);
+  } else {
+    show_orig(src, org_id);
+  }
+};
+
+let t_org_src= "images/torchy/TorchyTogs.png";
+let t6_org_src= "images/torchy/TorchyTogs2.png";
+let t11_org_src ="images/torchy/TorchyTogs3.png";
+let t21_org_src ="images/torchy/TorchyTogs4.png";
+let t16_org_src ="images/torchy/TorchyTogs5.png";
+let t30_org_src ="images/torchy/TorchyTogs6.png";
+let t34_org_src ="images/torchy/TorchyTogs7.png";
+let t40_org_src ="images/torchy/TorchyTogs8.png";
+let t50_org_src ="images/torchy/TorchyTogs9.png";
+let t60_org_src ="images/torchy/TorchyTogs10.png";
+let t70_org_src ="images/torchy/TorchyTogs11.png";
+let t80_org_src ="images/torchy/TorchyTogs12.png";
+
+let t_org_img = "t_org_img";
+let t6_org_img = "t6_org_img";
+let t11_org_img = "t11_org_img";
+let t21_org_img = "t21_org_img";
+let t16_org_img = "t16_org_img";
+let t30_org_img = "t30_org_img";
+let t34_org_img = "t34_org_img";
+let t40_org_img = "t40_org_img";
+let t50_org_img = "t50_org_img";
+let t60_org_img = "t60_org_img";
+let t70_org_img = "t70_org_img";
+let t80_org_img = "t80_org_img";
+
+t_org.addEventListener("click", function() { viewOrg(t_org_img, t_org_src); }) ;
+t6_org.addEventListener("click", function() { viewOrg(t6_org_img, t6_org_src); }) ;
+t11_org.addEventListener("click", function() { viewOrg(t11_org_img, t11_org_src); }) ;
+t21_org.addEventListener("click", function() { viewOrg(t21_org_img, t21_org_src); }) ;
+t16_org.addEventListener("click", function() { viewOrg(t16_org_img, t16_org_src); }) ;
+t30_org.addEventListener("click", function() { viewOrg(t30_org_img, t30_org_src); }) ;
+t34_org.addEventListener("click", function() { viewOrg(t34_org_img, t34_org_src); }) ;
+t40_org.addEventListener("click", function() { viewOrg(t40_org_img, t40_org_src); }) ;
+t50_org.addEventListener("click", function() { viewOrg(t50_org_img, t50_org_src); }) ;
+t60_org.addEventListener("click", function() { viewOrg(t60_org_img, t60_org_src); }) ;
+t70_org.addEventListener("click", function() { viewOrg(t70_org_img, t70_org_src); }) ;
+t80_org.addEventListener("click", function() { viewOrg(t80_org_img, t80_org_src); }) ;
 
 one.addEventListener("click", function() { viewDresses(box1, dresses1, container); }) ;
 two.addEventListener("click", function() { viewDresses(box2, dresses2, container2); }) ;
@@ -343,6 +417,7 @@ bt20.addEventListener("click", function() { selectDress(t16, t20, dresses5); }) 
 bt22.addEventListener("click", function() { selectDress(t21, t22, dresses4); }) ;
 bt23.addEventListener("click", function() { selectDress(t21, t23, dresses4); }) ;
 bt24.addEventListener("click", function() { selectDress(t21, t24, dresses4); }) ;
+bt25.addEventListener("click", function() { selectDress(t21, t25, dresses4); }) ;
 bt31.addEventListener("click", function() { selectDress(t30, t31, dresses6); }) ;
 bt32.addEventListener("click", function() { selectDress(t30, t32, dresses6); }) ;
 bt33.addEventListener("click", function() { selectDress(t30, t33, dresses6); }) ;
@@ -394,7 +469,6 @@ function makeSelect (){
       }
     }
   if (items.includes(t1) && items.includes(t5)) {
-    console.log("!!!!!!!!!!!!!!!!");
     let img = document.createElement("img");
     img.classList.add("torch");
     img.id="t_1_h";
@@ -554,6 +628,14 @@ function makeSelect (){
     let t21_24 = document.getElementById("t21_24");
     body.appendChild(img20);
     showTorchy(t21, img20);
+  } else if (items.includes(t25)){
+    let img20a = document.createElement("img");
+    img20a.classList.add("torch");
+    img20a.id="t21_24";
+    img20a.src="images/torchy/t21_torchy25.png";
+    let t21_24 = document.getElementById("t21_25");
+    body.appendChild(img20a);
+    showTorchy(t21, img20a);
   } else if (items.includes(t17)){
     let img21 = document.createElement("img");
     img21.classList.add("torch");
@@ -934,7 +1016,7 @@ function makeSelect (){
     let img68 = document.createElement("img");
     img68.classList.add("torch");
     img68.id="t80_81";
-    img68.src="images/torchy/t80_torchy81.png";
+    img68.src="images/torchy/t80-torchy81.png";
     let t80_81 = document.getElementById("t80_81");
     body.appendChild(img68);
     showTorchy(t80, img68);
@@ -942,7 +1024,7 @@ function makeSelect (){
     let img69 = document.createElement("img");
     img69.classList.add("torch");
     img69.id="t80_82";
-    img69.src="images/torchy/t80_torchy82.png";
+    img69.src="images/torchy/t80-torchy82.png";
     let t80_82 = document.getElementById("t80_82");
     body.appendChild(img69);
     showTorchy(t80, img69);
@@ -950,7 +1032,7 @@ function makeSelect (){
     let img70 = document.createElement("img");
     img70.classList.add("torch");
     img70.id="t80_83";
-    img70.src="images/torchy/t80_torchy83.png";
+    img70.src="images/torchy/t80-torchy83.png";
     let t80_83 = document.getElementById("t80_83");
     body.appendChild(img70);
     showTorchy(t80, img70);
@@ -958,7 +1040,7 @@ function makeSelect (){
     let img71 = document.createElement("img");
     img71.classList.add("torch");
     img71.id="t80_84";
-    img71.src="images/torchy/t80_torchy84.png";
+    img71.src="images/torchy/t80-torchy84.png";
     let t80_84 = document.getElementById("t80_84");
     body.appendChild(img71);
     showTorchy(t80, img71);

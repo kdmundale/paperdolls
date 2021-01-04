@@ -144,6 +144,73 @@ background-image: url("images/torchy/t1.png");
   width:150px;
 }
 
+.org_show {
+  position: fixed;
+  width: 75vw;
+  margin: auto;
+  top: 15%; left:13%;
+  z-index: 10;
+}
+
+.original{
+  border: none;
+  position: fixed;
+  top:5%; left:20%;
+  background-color: rgba(0,0,0,0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 250px; height: 200px;
+  margin: 5px auto;
+}
+
+#t_org {
+  background-image: url("images/torchy/TorchyTogs.png");
+}
+#t6_org {
+  background-image: url("images/torchy/TorchyTogs2.png");
+}
+
+#t11_org {
+  background-image: url("images/torchy/TorchyTogs3.png");
+}
+
+#t16_org {
+  background-image: url("images/torchy/TorchyTogs5.png");
+}
+
+#t21_org {
+  background-image: url("images/torchy/TorchyTogs4.png");
+}
+
+#t30_org {
+  background-image: url("images/torchy/TorchyTogs6.png");
+}
+
+#t34_org {
+  background-image: url("images/torchy/TorchyTogs7.png");
+}
+
+#t40_org {
+  background-image: url("images/torchy/TorchyTogs8.png");
+}
+
+#t50_org {
+  background-image: url("images/torchy/TorchyTogs9.png");
+}
+
+#t60_org {
+  background-image: url("images/torchy/TorchyTogs10.png");
+}
+
+#t70_org {
+  background-image: url("images/torchy/TorchyTogs11.png");
+}
+
+#t80_org {
+  background-image: url("images/torchy/TorchyTogs12.png");
+}
+
 #b-t1 {
   background-image: url("images/torchy/torchy1.png");
 }
@@ -160,6 +227,7 @@ background-image: url("images/torchy/t1.png");
   background-image: url("images/torchy/torchy4.png");
 }
 #b-t5{
+  background-size: 4vh;
   background-image: url("images/torchy/torchy5.png");
 }
 
@@ -175,6 +243,7 @@ background-image: url("images/torchy/t1.png");
   background-image: url("images/torchy/torchy9.png");
 }
 #b-t10{
+  background-size: 4vh;
   background-image: url("images/torchy/torchy10.png");
 }
 
@@ -202,6 +271,9 @@ background-image: url("images/torchy/t1.png");
 }
 #b-t24 {
   background-image: url("images/torchy/torchy24.png");
+}
+#b-t25 {
+  background-image: url("images/torchy/torchy25.png");
 }
 
 #b-t18 {
@@ -238,6 +310,7 @@ background-image: url("images/torchy/t1.png");
   background-image: url("images/torchy/torchy38.png");
 }
 #b-t39 {
+  background-size: 6vh;
   background-image: url("images/torchy/torchy39.png");
 }
 #b-t41 {
@@ -263,9 +336,11 @@ background-image: url("images/torchy/t1.png");
   background-image: url("images/torchy/torchy54.png");
 }
 #b-t55 {
+  background-size: 4vh;
   background-image: url("images/torchy/torchy55.png");
 }
 #b-t56 {
+  background-size: 4vh;
   background-image: url("images/torchy/torchy56.png");
 }
 #b-t61 {
@@ -287,6 +362,7 @@ background-image: url("images/torchy/t1.png");
   background-image: url("images/torchy/torchy66.png");
 }
 #b-t67 {
+  background-size: 8vh;
   background-image: url("images/torchy/torchy67.png");
 }
 #b-t71 {
@@ -488,6 +564,11 @@ background-image: url("images/torchy/t1.png");
   #t24{
     height:20vh;
   }
+
+  #t25{
+    height:17vh;
+  }
+
   .torchy-dress5 {
     position: absolute;
     top:25%; left:25%;
