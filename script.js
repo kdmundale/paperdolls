@@ -1,3 +1,43 @@
+function dropDown(elm) {
+  console.log("click");
+
+  if (elm.style.display == "flex"){
+    elm.style.display = "none";
+    button_t1.style.display="none";
+
+  } else {
+    button_t1.style.display="block";
+    elm.style.display = "flex";
+  }
+};
+
+let dl = document.getElementById("dresslinks");
+let dl2 = document.getElementById("dresslinks2");
+let dl3 = document.getElementById("dresslinks3");
+let dl4 = document.getElementById("dresslinks4");
+let dl5 = document.getElementById("dresslinks5");
+let dl6 = document.getElementById("dresslinks6");
+let dl7 = document.getElementById("dresslinks7");
+let dl8 = document.getElementById("dresslinks8");
+let dl9 = document.getElementById("dresslinks9");
+let dl10 = document.getElementById("dresslinks10");
+let dl11 = document.getElementById("dresslinks11");
+let dl12 = document.getElementById("dresslinks12");
+
+document.getElementById("drpdn").addEventListener("click", function() { dropDown(dl); });
+document.getElementById("drpdn2").addEventListener("click", function() { dropDown(dl2); });
+document.getElementById("drpdn3").addEventListener("click", function() { dropDown(dl3); });
+document.getElementById("drpdn4").addEventListener("click", function() { dropDown(dl4); });
+document.getElementById("drpdn5").addEventListener("click", function() { dropDown(dl5); });
+document.getElementById("drpdn6").addEventListener("click", function() { dropDown(dl6); });
+document.getElementById("drpdn7").addEventListener("click", function() { dropDown(dl7); });
+document.getElementById("drpdn8").addEventListener("click", function() { dropDown(dl8); });
+document.getElementById("drpdn9").addEventListener("click", function() { dropDown(dl9); });
+document.getElementById("drpdn10").addEventListener("click", function() { dropDown(dl10); });
+document.getElementById("drpdn11").addEventListener("click", function() { dropDown(dl11); });
+document.getElementById("drpdn12").addEventListener("click", function() { dropDown(dl12); });
+
+
 let t1 = document.querySelector("#t1");
 let t2 = document.querySelector("#t2");
 let t3 = document.querySelector("#t3");
@@ -93,7 +133,6 @@ let t50_org = document.getElementById("t50_org");
 let t60_org = document.getElementById("t60_org");
 
 function moveDress(dragItem, container) {
-  console.log("booooom");
   let active = false;
   let currentX;
   let currentY;
@@ -224,7 +263,7 @@ let dresses12=[t80, t81,t82,t83,t84];
 let button_t1= document.getElementById("button_t1");
 
 function viewDresses(box, dress_list, cont) {
-  button_t1.style.display="block";
+  button_t1.style.display="none";
   for (i=0; i < elms.length; i++){
     if (elms[i] == box){
       show_elm(box);

@@ -10,6 +10,10 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url("images/wallpaper3.png");
   background-repeat: repeat;
   left:0;right:0;
@@ -83,13 +87,13 @@ span{
 #logo {
   height: 100px;
   position: fixed;
-  top:3%;right: 2%;
+  top:20px; right: 10px;
 }
 
 #sig {
   height: 100px;
   position: fixed;
-  top:10%; right:2%;
+  top:130px; right:10px;
 }
 #one {
 background-image: url("images/torchy/t1.png");
@@ -141,27 +145,27 @@ background-image: url("images/torchy/t1.png");
   background-position: center;
   margin: 5px auto;
   height:9vh;
-  width:150px;
+  width:100px;
 }
 
 .org_show {
   position: fixed;
-  width: 75vw;
+  width: 70vw;
   margin: auto;
-  top: 25%; left:13%;
+  top: 18%; left:25%;
   z-index: 10;
 }
 
 .original{
-  border: none;
   position: fixed;
-  top:5%; left:20%;
+  top:35%; left: 30px;
+  border: none;
   background-color: rgba(0,0,0,0);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 250px; height: 200px;
-  margin: 5px auto;
+  width: 150px; height:100px;
+  z-index: 20;
 }
 
 #t_org {
@@ -390,75 +394,90 @@ background-image: url("images/torchy/t1.png");
   background-image: url("images/torchy/torchy84.png");
 }
 #dress-box{
-  background-color: rgba(252, 252, 212,.7);
+  background-color: rgba(252, 252, 212,.8);
 }
 
 #dress-box2{
-  background-color: rgba(242, 171, 133,.7);
+  background-color: rgba(242, 171, 133,.8);
 }
 
 #dress-box3{
-  background-color: rgba(252, 224, 157,.7);
+  background-color: rgba(252, 224, 157,.8);
 }
 
 #dress-box4{
-  background-color: rgba(168, 212, 138,.7);
+  background-color: rgba(168, 212, 138,.8);
 }
 
 #dress-box5{
-  background-color: rgba(245, 143, 122,.7);
+  background-color: rgba(245, 143, 122,.8);
 }
 
 #dress-box6{
-  background-color: rgba(138, 212, 182,.7);
+  background-color: rgba(138, 212, 182,.8);
 }
 
 #dress-box7{
-  background-color: rgba(252, 252, 212,.7);
+  background-color: rgba(252, 252, 212,.8);
 }
 
 #dress-box8{
-  background-color: rgba(242, 171, 133,.7);
+  background-color: rgba(242, 171, 133,.8);
 }
 
 #dress-box9{
-  background-color: rgba(252, 224, 157,.7);
+  background-color: rgba(252, 224, 157,.8);
 }
 
 #dress-box10{
-  background-color: rgba(168, 212, 138,.7);
+  background-color: rgba(168, 212, 138,.8);
 }
 
 #dress-box11{
-  background-color: rgba(245, 143, 122,.7);
+  background-color: rgba(245, 143, 122,.8);
 }
 
 #dress-box12{
-  background-color: rgba(138, 212, 182,.7);
+  background-color: rgba(138, 212, 182,.8);
 }
 @media only screen and (min-width: 300px){
 
-  .button-dress {
+  .button-torchy {
     background-color: rgba(251,250,222,1);
-    border: 2px solid rgb(93,154,49);
-    border-radius: 0%;
-    height: 9vh;
-    width:15vw;
-    margin: 5px;
+    box-shadow: 0 0 10px 5px rgba(251,250,222,1);
+    border: none;
+    border-radius: 40%;
+    height: 11vh;
+    width:13vw;
+    margin: 5px 10px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
 
+  .drop {
+    font-family: cursive;
+    position: fixed;
+    top: 15%; left: 20px;
+    background-color: rgba(173,109,104,1);
+    box-shadow: 0 0 7px 3px rgba(173,109,104,1);
+    border:none;
+    color: white;
+    font-size: 2.75vh;
+    border-radius: 50%;
+    width: 20vw; height: 7vh;
+    z-index: 40;
+  }
+
   .dress-button-holder{
-    position: absolute;
-    top: 10px;
-    left:5px;
-    width: 120px;
-    display: flex;
-    flex-direction: column;
+    display: none;
+    background-color: rgba(251,250,222,.75);
+    position: fixed;
+    top: 20px;
+    left:5px;right:5px;
+    flex-direction: row;
     align-items: center;
-    z-index: 20;
+    z-index: 50;
   }
 
   #intro-box h1{
@@ -498,23 +517,26 @@ background-image: url("images/torchy/t1.png");
     position: absolute;
     height: 35vh;
     left:30%; top:40%;
-    z-index: 9;
+    z-index: 4;
   }
 
 
   .select {
-    font-variant: small-caps;
-    color: white;
-    background-color: maroon;
     display: none;
-    font-size: 2vh;
-    position: absolute;
-    padding: 20px;
+    font-family: cursive;
+    position: fixed;
+    top: 25%; left: 20px;
+    background-color: rgba(173,109,104,1);
+    border: none;
+    box-shadow: 0 0 7px 3px rgba(173,109,104,1);
+    color: white;
+    font-size: 2.75vh;
     border-radius: 50%;
-    width: 210px;
-    top:60%; right:4%;
-    z-index: 30;
-    border: 3px solid black;
+    width: 20vw; height: 7vh;
+    z-index: 40;
+  }
+
+  .select:hover {
   }
 
   #t6, #t11, #t16, #t40 {
