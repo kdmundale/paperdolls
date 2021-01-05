@@ -1,12 +1,14 @@
-function dropDown(elm) {
+function dropDown(elm, d) {
 
   if (elm.style.display == "flex"){
     elm.style.display = "none";
     button_t1.style.display="none";
+    d.style.top="5%";
 
   } else {
     button_t1.style.display="block";
     elm.style.display = "flex";
+    d.style.top="20%";
   }
 };
 
@@ -23,19 +25,30 @@ let dl10 = document.getElementById("dresslinks10");
 let dl11 = document.getElementById("dresslinks11");
 let dl12 = document.getElementById("dresslinks12");
 
-document.getElementById("drpdn").addEventListener("click", function() { dropDown(dl); });
-document.getElementById("drpdn2").addEventListener("click", function() { dropDown(dl2); });
-document.getElementById("drpdn3").addEventListener("click", function() { dropDown(dl3); });
-document.getElementById("drpdn4").addEventListener("click", function() { dropDown(dl4); });
-document.getElementById("drpdn5").addEventListener("click", function() { dropDown(dl5); });
-document.getElementById("drpdn6").addEventListener("click", function() { dropDown(dl6); });
-document.getElementById("drpdn7").addEventListener("click", function() { dropDown(dl7); });
-document.getElementById("drpdn8").addEventListener("click", function() { dropDown(dl8); });
-document.getElementById("drpdn9").addEventListener("click", function() { dropDown(dl9); });
-document.getElementById("drpdn10").addEventListener("click", function() { dropDown(dl10); });
-document.getElementById("drpdn11").addEventListener("click", function() { dropDown(dl11); });
-document.getElementById("drpdn12").addEventListener("click", function() { dropDown(dl12); });
-
+let d_1 = document.getElementById("drpdn");
+d_1.addEventListener("click", function() { dropDown(dl, d_1); });
+let d_2 = document.getElementById("drpdn2");
+d_2.addEventListener("click", function() { dropDown(dl2, d_2); });
+let d_3 = document.getElementById("drpdn3");
+d_3.addEventListener("click", function() { dropDown(dl3, d_3); });
+let d_4 = document.getElementById("drpdn4");
+d_4.addEventListener("click", function() { dropDown(dl4, d_4); });
+let d_5 = document.getElementById("drpdn5");
+d_5.addEventListener("click", function() { dropDown(dl5, d_5); });
+let d_6 = document.getElementById("drpdn6");
+d_6.addEventListener("click", function() { dropDown(dl6, d_6); });
+let d_7 = document.getElementById("drpdn7");
+d_7.addEventListener("click", function() { dropDown(dl7, d_7); });
+let d_8 = document.getElementById("drpdn8");
+d_8.addEventListener("click", function() { dropDown(dl8, d_8); });
+let d_9 = document.getElementById("drpdn9");
+d_9.addEventListener("click", function() { dropDown(dl2, d_9); });
+let d_10 = document.getElementById("drpdn10");
+d_10.addEventListener("click", function() { dropDown(dl2, d_10); });
+let d_11 = document.getElementById("drpdn11");
+d_11.addEventListener("click", function() { dropDown(dl2, d_11); });
+let d_12 = document.getElementById("drpdn12");
+d_12.addEventListener("click", function() { dropDown(dl12, d_12); });
 
 let t1 = document.querySelector("#t1");
 let t2 = document.querySelector("#t2");
