@@ -497,9 +497,7 @@ function showTorchy (torchy, elm){
     hide_elm(allDresses[i]);
   }
   hide_elm(torchy);
-  console.log("!!!!");
   moveDress(elm, body);
-  console.log("????");
 
 }
 
@@ -510,6 +508,7 @@ function makeSelect (){
       items.push(allDresses[i]);
       }
     }
+  console.log(items);
   if (items.includes(t1) && items.includes(t5)) {
     let img = document.createElement("img");
     img.classList.add("torch");
@@ -615,7 +614,7 @@ function makeSelect (){
     let t6_9 = document.getElementById("t6_9");
     body.appendChild(img13);
     showTorchy(t6, img13);
-  } else if (items.includes(t12)){
+  } else if ( items.includes(t12) ){
     let img14 = document.createElement("img");
     img14.classList.add("torch");
     img14.id="t11_12";
