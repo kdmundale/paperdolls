@@ -463,7 +463,7 @@ background-image: url("images/torchy/t1.png");
   .drop {
     font-family: cursive;
     position: fixed;
-    top: 20%; left: 20px;
+    top: 5%; left: 20px;
     background-color: rgba(173,109,104,1);
     box-shadow: 0 0 7px 3px rgba(173,109,104,1);
     border:none;
