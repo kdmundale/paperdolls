@@ -1,3 +1,16 @@
+let dl = document.getElementById("dresslinks");
+let dl2 = document.getElementById("dresslinks2");
+let dl3 = document.getElementById("dresslinks3");
+let dl4 = document.getElementById("dresslinks4");
+let dl5 = document.getElementById("dresslinks5");
+let dl6 = document.getElementById("dresslinks6");
+let dl7 = document.getElementById("dresslinks7");
+let dl8 = document.getElementById("dresslinks8");
+let dl9 = document.getElementById("dresslinks9");
+let dl10 = document.getElementById("dresslinks10");
+let dl11 = document.getElementById("dresslinks11");
+let dl12 = document.getElementById("dresslinks12");
+
 function dropDown(elm, d) {
 
   if (elm.style.display == "flex"){
@@ -11,19 +24,6 @@ function dropDown(elm, d) {
     d.style.top="20%";
   }
 };
-
-let dl = document.getElementById("dresslinks");
-let dl2 = document.getElementById("dresslinks2");
-let dl3 = document.getElementById("dresslinks3");
-let dl4 = document.getElementById("dresslinks4");
-let dl5 = document.getElementById("dresslinks5");
-let dl6 = document.getElementById("dresslinks6");
-let dl7 = document.getElementById("dresslinks7");
-let dl8 = document.getElementById("dresslinks8");
-let dl9 = document.getElementById("dresslinks9");
-let dl10 = document.getElementById("dresslinks10");
-let dl11 = document.getElementById("dresslinks11");
-let dl12 = document.getElementById("dresslinks12");
 
 let d_1 = document.getElementById("drpdn");
 d_1.addEventListener("click", function() { dropDown(dl, d_1); });
@@ -42,11 +42,11 @@ d_7.addEventListener("click", function() { dropDown(dl7, d_7); });
 let d_8 = document.getElementById("drpdn8");
 d_8.addEventListener("click", function() { dropDown(dl8, d_8); });
 let d_9 = document.getElementById("drpdn9");
-d_9.addEventListener("click", function() { dropDown(dl2, d_9); });
+d_9.addEventListener("click", function() { dropDown(dl9, d_9); });
 let d_10 = document.getElementById("drpdn10");
-d_10.addEventListener("click", function() { dropDown(dl2, d_10); });
+d_10.addEventListener("click", function() { dropDown(dl10, d_10); });
 let d_11 = document.getElementById("drpdn11");
-d_11.addEventListener("click", function() { dropDown(dl2, d_11); });
+d_11.addEventListener("click", function() { dropDown(dl11, d_11); });
 let d_12 = document.getElementById("drpdn12");
 d_12.addEventListener("click", function() { dropDown(dl12, d_12); });
 
