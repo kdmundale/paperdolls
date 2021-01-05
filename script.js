@@ -1,5 +1,4 @@
 function dropDown(elm) {
-  console.log("click");
 
   if (elm.style.display == "flex"){
     elm.style.display = "none";
@@ -332,18 +331,18 @@ let bt82 = document.getElementById("b-t82");
 let bt83 = document.getElementById("b-t83");
 let bt84 = document.getElementById("b-t84");
 
-let allDresses = [t1,t2,t3,t4,t7,t8,t9,t13,t13,t14,t15,t22,t23,t24,t25,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84,t5,t10,t39,t55,t56,t67];
+let allDresses = [t1,t2,t3,t4,t7,t8,t9,t12,t13,t14,t15,t22,t23,t24,t25,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84,t5,t10,t39,t55,t56,t67];
 let allHats = [t5,t10,t39,t55,t56,t67];
 
 function selectDress( figure, dress, dress_list){
-  show_elm(figure);
   for (i=0; i < dress_list.length; i++){
     if (dress_list[i] == dress){
       show_elm(dress);
-      show_elm(figure);
     } else {
       hide_elm(dress_list[i]);
     }
+    show_elm(figure);
+
   }
   // for (i=0; i < ts.length; i++){
   //   hide_elm(ts[i]);
@@ -503,12 +502,13 @@ function showTorchy (torchy, elm){
 
 function makeSelect (){
   items =[];
+
   for (i=0; i < allDresses.length; i++){
+
     if(allDresses[i].style.display =="block"){
       items.push(allDresses[i]);
       }
-    }
-  console.log(items);
+  }
   if (items.includes(t1) && items.includes(t5)) {
     let img = document.createElement("img");
     img.classList.add("torch");
@@ -525,7 +525,6 @@ function makeSelect (){
     let t_1 = document.getElementById("t_1");
     body.appendChild(img2);
     showTorchy(t, img2);
-    console.log("ding");
   } else if (items.includes(t4) && items.includes(t5)) {
     let img3 = document.createElement("img");
     img3.classList.add("torch");
