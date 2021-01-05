@@ -93,7 +93,7 @@ let t50_org = document.getElementById("t50_org");
 let t60_org = document.getElementById("t60_org");
 
 function moveDress(dragItem, container) {
-  console.log(dragItem);
+  console.log("booooom");
   let active = false;
   let currentX;
   let currentY;
@@ -456,9 +456,12 @@ bt84.addEventListener("click", function() { selectDress(t80,t84, dresses12); }) 
 function showTorchy (torchy, elm){
   for (i=0; i < allDresses.length; i++){
     hide_elm(allDresses[i]);
-    hide_elm(torchy);
-    moveDress(elm, body);
   }
+  hide_elm(torchy);
+  console.log("!!!!");
+  moveDress(elm, body);
+  console.log("????");
+
 }
 
 function makeSelect (){
@@ -484,6 +487,7 @@ function makeSelect (){
     let t_1 = document.getElementById("t_1");
     body.appendChild(img2);
     showTorchy(t, img2);
+    console.log("ding");
   } else if (items.includes(t4) && items.includes(t5)) {
     let img3 = document.createElement("img");
     img3.classList.add("torch");
