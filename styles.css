@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("images/wallpaper3.png");
+  background-image: url("images/wallpaper2.jpeg");
   background-repeat: repeat;
   left:0;right:0;
   z-index: -10;
@@ -144,7 +144,7 @@ background-image: url("images/torchy/t1.png");
   background-size: contain;
   background-position: center;
   margin: 5px auto;
-  height:9vh;
+  height:12vh;
   width:100px;
 }
 
@@ -158,13 +158,13 @@ background-image: url("images/torchy/t1.png");
 
 .original{
   position: fixed;
-  top:35%; left: 30px;
+  top:40%; left: 30px;
   border: none;
   background-color: rgba(0,0,0,0);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 150px; height:100px;
+  width: 20vw; height:8vh;
   z-index: 20;
 }
 
@@ -395,6 +395,7 @@ background-image: url("images/torchy/t1.png");
 }
 #dress-box{
   background-color: rgba(252, 252, 212,.8);
+  background-color: rgba(242, 171, 133,.8);
 }
 
 #dress-box2{
@@ -403,22 +404,27 @@ background-image: url("images/torchy/t1.png");
 
 #dress-box3{
   background-color: rgba(252, 224, 157,.8);
+  background-color: rgba(242, 171, 133,.8);
 }
 
 #dress-box4{
   background-color: rgba(168, 212, 138,.8);
+  background-color: rgba(242, 171, 133,.8);
 }
 
 #dress-box5{
   background-color: rgba(245, 143, 122,.8);
+  background-color: rgba(242, 171, 133,.8);
 }
 
 #dress-box6{
   background-color: rgba(138, 212, 182,.8);
+  background-color: rgba(242, 171, 133,.8);
 }
 
 #dress-box7{
   background-color: rgba(252, 252, 212,.8);
+  background-color: rgba(242, 171, 133,.8);
 }
 
 #dress-box8{
@@ -443,10 +449,9 @@ background-image: url("images/torchy/t1.png");
 @media only screen and (min-width: 300px){
 
   .button-torchy {
-    background-color: rgba(251,250,222,1);
-    box-shadow: 0 0 10px 5px rgba(251,250,222,1);
+    background-color: rgba(251,250,222,.7);
+    box-shadow: 0 0 8px 4px rgba(251,250,222,.7);
     border: none;
-    border-radius: 40%;
     height: 11vh;
     width:13vw;
     margin: 5px 10px;
@@ -458,14 +463,14 @@ background-image: url("images/torchy/t1.png");
   .drop {
     font-family: cursive;
     position: fixed;
-    top: 15%; left: 20px;
+    top: 20%; left: 20px;
     background-color: rgba(173,109,104,1);
     box-shadow: 0 0 7px 3px rgba(173,109,104,1);
     border:none;
     color: white;
     font-size: 2.75vh;
     border-radius: 50%;
-    width: 22vw; height: 7vh;
+    width: 23vw; height: 8vh;
     z-index: 40;
   }
 
@@ -525,14 +530,14 @@ background-image: url("images/torchy/t1.png");
     display: none;
     font-family: cursive;
     position: fixed;
-    top: 25%; left: 20px;
+    top: 30%; left: 20px;
     background-color: rgba(173,109,104,1);
     border: none;
     box-shadow: 0 0 7px 3px rgba(173,109,104,1);
     color: white;
     font-size: 2.75vh;
     border-radius: 50%;
-    width: 22vw; height: 7vh;
+    width: 23vw; height: 8vh;
     z-index: 40;
   }
 

@@ -257,8 +257,8 @@ let dresses7 =[t34, t35,t36,t37,t38,t39];
 let dresses8 =[t40, t41,t42,t43,t44];
 let dresses9 =[t50, t51,t52,t53,t54,t55,t56];
 let dresses10 =[t60, t61,t62,t63,t64,t65,t66,t67];
-let dresses11 =[t70, t71,t72,t73,t74];
-let dresses12=[t80, t81,t82,t83,t84];
+let dresses11 =[t70,t71,t72,t73,t74];
+let dresses12=[t80,t81,t82,t83,t84];
 let button_t1= document.getElementById("button_t1");
 
 function viewDresses(box, dress_list, cont) {
@@ -344,18 +344,12 @@ function selectDress( figure, dress, dress_list){
     show_elm(figure);
 
   }
-  // for (i=0; i < ts.length; i++){
-  //   hide_elm(ts[i]);
-  // }
 };
 
 function selectHat(hat, t) {
   if (hat.style.display =="block"){
     hide_elm(hat);
   } else {
-    // for (i=0; i < ts.length; i++){
-    //   hide_elm(ts[i]);
-    // }
     show_elm(t);
     show_elm(hat);
   }
