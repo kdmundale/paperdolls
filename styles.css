@@ -516,7 +516,7 @@ background-image: url("images/torchy/t1.png");
   .torch {
     position: absolute;
     height: 35vh;
-    left:30%; top:40%;
+    left:30%; top:35%;
     z-index: 4;
   }
 
