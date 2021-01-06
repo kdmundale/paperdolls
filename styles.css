@@ -21,7 +21,7 @@ body {
 }
 
 #torchy-nav {
-  display: flex;
+  display: none;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -539,6 +539,21 @@ background-image: url("images/torchy/t1.png");
     border-radius: 50%;
     width: 23vw; height: 8vh;
     z-index: 40;
+  }
+
+  .t_select {
+    display: block;
+    font-family: cursive;
+    position: fixed;
+    background-color: rgba(173,109,104,1);
+    border: none;
+    box-shadow: 0 0 7px 3px rgba(173,109,104,1);
+    color: white;
+    font-size: 3vh;
+    border-radius: 50%;
+    width: 27vw; height: 9vh;
+    z-index: 40;
+    bottom: 5%;
   }
 
   .select:hover {

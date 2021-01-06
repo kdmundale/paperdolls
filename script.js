@@ -10,45 +10,46 @@ let dl9 = document.getElementById("dresslinks9");
 let dl10 = document.getElementById("dresslinks10");
 let dl11 = document.getElementById("dresslinks11");
 let dl12 = document.getElementById("dresslinks12");
-
-function dropDown(elm, d) {
-
-  if (elm.style.display == "flex"){
-    elm.style.display = "none";
-    button_t1.style.display="none";
-    d.style.top="5%";
-
-  } else {
-    button_t1.style.display="block";
-    elm.style.display = "flex";
-    d.style.top="20%";
-  }
-};
-
 let d_1 = document.getElementById("drpdn");
-d_1.addEventListener("click", function() { dropDown(dl, d_1); });
 let d_2 = document.getElementById("drpdn2");
-d_2.addEventListener("click", function() { dropDown(dl2, d_2); });
 let d_3 = document.getElementById("drpdn3");
-d_3.addEventListener("click", function() { dropDown(dl3, d_3); });
 let d_4 = document.getElementById("drpdn4");
-d_4.addEventListener("click", function() { dropDown(dl4, d_4); });
 let d_5 = document.getElementById("drpdn5");
-d_5.addEventListener("click", function() { dropDown(dl5, d_5); });
 let d_6 = document.getElementById("drpdn6");
-d_6.addEventListener("click", function() { dropDown(dl6, d_6); });
 let d_7 = document.getElementById("drpdn7");
-d_7.addEventListener("click", function() { dropDown(dl7, d_7); });
 let d_8 = document.getElementById("drpdn8");
-d_8.addEventListener("click", function() { dropDown(dl8, d_8); });
 let d_9 = document.getElementById("drpdn9");
-d_9.addEventListener("click", function() { dropDown(dl9, d_9); });
 let d_10 = document.getElementById("drpdn10");
-d_10.addEventListener("click", function() { dropDown(dl10, d_10); });
 let d_11 = document.getElementById("drpdn11");
-d_11.addEventListener("click", function() { dropDown(dl11, d_11); });
 let d_12 = document.getElementById("drpdn12");
-d_12.addEventListener("click", function() { dropDown(dl12, d_12); });
+
+let box1 = document.getElementById("box1");
+let box2 = document.getElementById("box2");
+let box3 = document.getElementById("box3");
+let box4 = document.getElementById("box4");
+let box5 = document.getElementById("box5");
+let box6 = document.getElementById("box6");
+let box7 = document.getElementById("box7");
+let box8 = document.getElementById("box8");
+let box9 = document.getElementById("box9");
+let box10 = document.getElementById("box10");
+let box11 = document.getElementById("box11");
+let box12 = document.getElementById("box12");
+
+let intro= document.getElementById("intro");
+
+let one = document.getElementById("one");
+let two = document.getElementById("two");
+let three = document.getElementById("three");
+let four = document.getElementById("four");
+let five= document.getElementById("five");
+let six= document.getElementById("six");
+let seven= document.getElementById("seven");
+let eight= document.getElementById("eight");
+let nine= document.getElementById("nine");
+let ten= document.getElementById("ten");
+let eleven = document.getElementById("eleven");
+let twelve= document.getElementById("twelve");
 
 let t1 = document.querySelector("#t1");
 let t2 = document.querySelector("#t2");
@@ -119,6 +120,11 @@ let t60 = document.getElementById("t60");
 let t70 = document.getElementById("t70");
 let t80 = document.getElementById("t80");
 
+let button_t1= document.getElementById("button_t1");
+let button_t2= document.getElementById("button_t2");
+
+let tn = document.getElementById("torchy-nav");
+
 let container = document.querySelector("#dress-box");
 let container2 = document.querySelector("#dress-box2");
 let container3 = document.querySelector("#dress-box3");
@@ -143,6 +149,99 @@ let t34_org = document.getElementById("t34_org");
 let t40_org = document.getElementById("t40_org");
 let t50_org = document.getElementById("t50_org");
 let t60_org = document.getElementById("t60_org");
+
+let bt1 = document.getElementById("b-t1");
+let bt2 = document.getElementById("b-t2");
+let bt3 = document.getElementById("b-t3");
+let bt4 = document.getElementById("b-t4");
+let bt5 = document.getElementById("b-t5");
+let bt7 = document.getElementById("b-t7");
+let bt8 = document.getElementById("b-t8");
+let bt9 = document.getElementById("b-t9");
+let bt10 = document.getElementById("b-t10");
+let bt12 = document.getElementById("b-t12");
+let bt13 = document.getElementById("b-t13");
+let bt14 = document.getElementById("b-t14");
+let bt15 = document.getElementById("b-t15");
+let bt18 = document.getElementById("b-t18");
+let bt19 = document.getElementById("b-t19");
+let bt17 = document.getElementById("b-t17");
+let bt20 = document.getElementById("b-t20");
+let bt22 = document.getElementById("b-t22");
+let bt23 = document.getElementById("b-t23");
+let bt24 = document.getElementById("b-t24");
+let bt25 = document.getElementById("b-t25");
+
+let bt31 = document.getElementById("b-t31");
+let bt32 = document.getElementById("b-t32");
+let bt33 = document.getElementById("b-t33");
+let bt35 = document.getElementById("b-t35");
+let bt36 = document.getElementById("b-t36");
+let bt37 = document.getElementById("b-t37");
+let bt38 = document.getElementById("b-t38");
+let bt39 = document.getElementById("b-t39");
+let bt41 = document.getElementById("b-t41");
+let bt42 = document.getElementById("b-t42");
+let bt43 = document.getElementById("b-t43");
+let bt44 = document.getElementById("b-t44");
+let bt51 = document.getElementById("b-t51");
+let bt52 = document.getElementById("b-t52");
+let bt53 = document.getElementById("b-t53");
+let bt54 = document.getElementById("b-t54");
+let bt55 = document.getElementById("b-t55");
+let bt56 = document.getElementById("b-t56");
+let bt61 = document.getElementById("b-t61");
+let bt62 = document.getElementById("b-t62");
+let bt63 = document.getElementById("b-t63");
+let bt64 = document.getElementById("b-t64");
+let bt65 = document.getElementById("b-t65");
+let bt66 = document.getElementById("b-t66");
+let bt67 = document.getElementById("b-t67");
+let bt71 = document.getElementById("b-t71");
+let bt72 = document.getElementById("b-t72");
+let bt73 = document.getElementById("b-t73");
+let bt74 = document.getElementById("b-t74");
+let bt81 = document.getElementById("b-t81");
+let bt82 = document.getElementById("b-t82");
+let bt83 = document.getElementById("b-t83");
+let bt84 = document.getElementById("b-t84");
+
+let elms = [box1, box2, box3, box4, box5, box6,box7,box8,box9,box10,box11, box12, intro];
+let figures = [t, t6, t11, t21, t16, t30, t34, t40, t50, t60, t70, t80];
+let dresses1= [t, t1, t2, t3, t4, t5];
+let dresses2 = [t6, t7, t8, t9, t10];
+let dresses3 = [t11, t12, t13, t14, t15];
+let dresses4 = [t21, t22, t23,t24,t25];
+let dresses5= [t16, t18, t17, t19, t20];
+let dresses6= [t30, t31, t32, t33];
+let dresses7 =[t34, t35,t36,t37,t38,t39];
+let dresses8 =[t40, t41,t42,t43,t44];
+let dresses9 =[t50, t51,t52,t53,t54,t55,t56];
+let dresses10 =[t60, t61,t62,t63,t64,t65,t66,t67];
+let dresses11 =[t70,t71,t72,t73,t74];
+let dresses12=[t80,t81,t82,t83,t84];
+
+let allDresses = [t1,t2,t3,t4,t7,t8,t9,t12,t13,t14,t15,t22,t23,t24,t25,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84,t5,t10,t39,t55,t56,t67];
+let allHats = [t5,t10,t39,t55,t56,t67];
+
+
+function dropDown(elm, d) {
+
+  if (elm.style.display == "flex"){
+    elm.style.display = "none";
+    button_t1.style.display="none";
+    d.style.top="5%";
+  } else {
+    button_t1.style.display="block";
+    elm.style.display = "flex";
+    d.style.top="20%";
+  }
+};
+
+function remove_elm(elm_id){
+  elm = document.getElementById(elm_id);
+  elm.remove();
+};
 
 function moveDress(dragItem, container) {
   let active = false;
@@ -229,50 +328,16 @@ function show_elm (elm) {
   }
 };
 
-let box1 = document.getElementById("box1");
-let box2 = document.getElementById("box2");
-let box3 = document.getElementById("box3");
-let box4 = document.getElementById("box4");
-let box5 = document.getElementById("box5");
-let box6 = document.getElementById("box6");
-let box7 = document.getElementById("box7");
-let box8 = document.getElementById("box8");
-let box9 = document.getElementById("box9");
-let box10 = document.getElementById("box10");
-let box11 = document.getElementById("box11");
-let box12 = document.getElementById("box12");
-
-let intro= document.getElementById("intro");
-
-let one = document.getElementById("one");
-let two = document.getElementById("two");
-let three = document.getElementById("three");
-let four = document.getElementById("four");
-let five= document.getElementById("five");
-let six= document.getElementById("six");
-let seven= document.getElementById("seven");
-let eight= document.getElementById("eight");
-let nine= document.getElementById("nine");
-let ten= document.getElementById("ten");
-let eleven = document.getElementById("eleven");
-let twelve= document.getElementById("twelve");
+function show_torchy_nav(){
+  if (tn.style.display == "none" || tn.style.display ==" "){
+    tn.style.display = "flex";
+  } else {
+    tn.style.display = "flex";
+  }
+  hide_elm(button_t2);
+};
 
 
-let elms = [box1, box2, box3, box4, box5, box6,box7,box8,box9,box10,box11, box12, intro];
-let figures = [t, t6, t11, t21, t16, t30, t34, t40, t50, t60, t70, t80];
-let dresses1= [t, t1, t2, t3, t4, t5];
-let dresses2 = [t6, t7, t8, t9, t10];
-let dresses3 = [t11, t12, t13, t14, t15];
-let dresses4 = [t21, t22, t23,t24,t25];
-let dresses5= [t16, t18, t17, t19, t20];
-let dresses6= [t30, t31, t32, t33];
-let dresses7 =[t34, t35,t36,t37,t38,t39];
-let dresses8 =[t40, t41,t42,t43,t44];
-let dresses9 =[t50, t51,t52,t53,t54,t55,t56];
-let dresses10 =[t60, t61,t62,t63,t64,t65,t66,t67];
-let dresses11 =[t70,t71,t72,t73,t74];
-let dresses12=[t80,t81,t82,t83,t84];
-let button_t1= document.getElementById("button_t1");
 
 function viewDresses(box, dress_list, cont) {
   button_t1.style.display="none";
@@ -286,66 +351,13 @@ function viewDresses(box, dress_list, cont) {
   for (i=0; i < dress_list.length; i++){
     moveDress(dress_list[i], cont);
   }
+  hide_elm(tn);
+  show_elm(button_t2);
 };
 
-let bt1 = document.getElementById("b-t1");
-let bt2 = document.getElementById("b-t2");
-let bt3 = document.getElementById("b-t3");
-let bt4 = document.getElementById("b-t4");
-let bt5 = document.getElementById("b-t5");
-let bt7 = document.getElementById("b-t7");
-let bt8 = document.getElementById("b-t8");
-let bt9 = document.getElementById("b-t9");
-let bt10 = document.getElementById("b-t10");
-let bt12 = document.getElementById("b-t12");
-let bt13 = document.getElementById("b-t13");
-let bt14 = document.getElementById("b-t14");
-let bt15 = document.getElementById("b-t15");
-let bt18 = document.getElementById("b-t18");
-let bt19 = document.getElementById("b-t19");
-let bt17 = document.getElementById("b-t17");
-let bt20 = document.getElementById("b-t20");
-let bt22 = document.getElementById("b-t22");
-let bt23 = document.getElementById("b-t23");
-let bt24 = document.getElementById("b-t24");
-let bt25 = document.getElementById("b-t25");
-
-let bt31 = document.getElementById("b-t31");
-let bt32 = document.getElementById("b-t32");
-let bt33 = document.getElementById("b-t33");
-let bt35 = document.getElementById("b-t35");
-let bt36 = document.getElementById("b-t36");
-let bt37 = document.getElementById("b-t37");
-let bt38 = document.getElementById("b-t38");
-let bt39 = document.getElementById("b-t39");
-let bt41 = document.getElementById("b-t41");
-let bt42 = document.getElementById("b-t42");
-let bt43 = document.getElementById("b-t43");
-let bt44 = document.getElementById("b-t44");
-let bt51 = document.getElementById("b-t51");
-let bt52 = document.getElementById("b-t52");
-let bt53 = document.getElementById("b-t53");
-let bt54 = document.getElementById("b-t54");
-let bt55 = document.getElementById("b-t55");
-let bt56 = document.getElementById("b-t56");
-let bt61 = document.getElementById("b-t61");
-let bt62 = document.getElementById("b-t62");
-let bt63 = document.getElementById("b-t63");
-let bt64 = document.getElementById("b-t64");
-let bt65 = document.getElementById("b-t65");
-let bt66 = document.getElementById("b-t66");
-let bt67 = document.getElementById("b-t67");
-let bt71 = document.getElementById("b-t71");
-let bt72 = document.getElementById("b-t72");
-let bt73 = document.getElementById("b-t73");
-let bt74 = document.getElementById("b-t74");
-let bt81 = document.getElementById("b-t81");
-let bt82 = document.getElementById("b-t82");
-let bt83 = document.getElementById("b-t83");
-let bt84 = document.getElementById("b-t84");
-
-let allDresses = [t1,t2,t3,t4,t7,t8,t9,t12,t13,t14,t15,t22,t23,t24,t25,t18,t17,t19,t20,t31,t32,t33,t35,t36,t37,t38,t41,t42,t43,t44,t51,t52,t53,t54,t61,t62,t63,t64,t65,t66,t71,t72,t73,t74,t81,t82,t83,t84,t5,t10,t39,t55,t56,t67];
-let allHats = [t5,t10,t39,t55,t56,t67];
+function createDress (){
+  document.createElement("img");
+}
 
 function selectDress( figure, dress, dress_list){
   for (i=0; i < dress_list.length; i++){
@@ -376,15 +388,10 @@ function show_orig(src, org_id) {
   body.appendChild(org);
 };
 
-function remove_org(org_id){
-  obj = document.getElementById(org_id);
-  obj.remove();
-};
-
 function viewOrg (org_id, src){
   let element = document.getElementById(org_id);
   if (element != null) {
-    remove_org(org_id);
+    remove_elm(org_id);
   } else {
     show_orig(src, org_id);
   }
@@ -415,6 +422,21 @@ let t50_org_img = "t50_org_img";
 let t60_org_img = "t60_org_img";
 let t70_org_img = "t70_org_img";
 let t80_org_img = "t80_org_img";
+
+button_t2.addEventListener("click", show_torchy_nav);
+
+d_1.addEventListener("click", function() { dropDown(dl, d_1); });
+d_2.addEventListener("click", function() { dropDown(dl2, d_2); });
+d_3.addEventListener("click", function() { dropDown(dl3, d_3); });
+d_4.addEventListener("click", function() { dropDown(dl4, d_4); });
+d_5.addEventListener("click", function() { dropDown(dl5, d_5); });
+d_6.addEventListener("click", function() { dropDown(dl6, d_6); });
+d_7.addEventListener("click", function() { dropDown(dl7, d_7); });
+d_8.addEventListener("click", function() { dropDown(dl8, d_8); });
+d_9.addEventListener("click", function() { dropDown(dl9, d_9); });
+d_10.addEventListener("click", function() { dropDown(dl10, d_10); });
+d_11.addEventListener("click", function() { dropDown(dl11, d_11); });
+d_12.addEventListener("click", function() { dropDown(dl12, d_12); });
 
 t_org.addEventListener("click", function() { viewOrg(t_org_img, t_org_src); }) ;
 t6_org.addEventListener("click", function() { viewOrg(t6_org_img, t6_org_src); }) ;
@@ -496,6 +518,7 @@ bt81.addEventListener("click", function() { selectDress(t80,t81, dresses12); }) 
 bt82.addEventListener("click", function() { selectDress(t80,t82, dresses12); }) ;
 bt83.addEventListener("click", function() { selectDress(t80,t83, dresses12); }) ;
 bt84.addEventListener("click", function() { selectDress(t80,t84, dresses12); }) ;
+
 
 
 function showTorchy (torchy, elm){
