@@ -23,6 +23,8 @@ let d_10 = document.getElementById("drpdn10");
 let d_11 = document.getElementById("drpdn11");
 let d_12 = document.getElementById("drpdn12");
 
+let dir = document.getElementById("dir");
+
 let box1 = document.getElementById("box1");
 let box2 = document.getElementById("box2");
 let box3 = document.getElementById("box3");
@@ -208,7 +210,7 @@ let bt84 = document.getElementById("b-t84");
 
 let elms = [box1, box2, box3, box4, box5, box6,box7,box8,box9,box10,box11, box12, intro];
 let figures = [t, t6, t11, t21, t16, t30, t34, t40, t50, t60, t70, t80];
-let dresses1= [t, t1, t2, t3, t4, t5];
+let dresses1= [t1, t2, t3, t4];
 let dresses2 = [t6, t7, t8, t9, t10];
 let dresses3 = [t11, t12, t13, t14, t15];
 let dresses4 = [t21, t22, t23,t24,t25];
@@ -355,10 +357,6 @@ function viewDresses(box, dress_list, cont) {
   show_elm(button_t2);
 };
 
-function createDress (){
-  document.createElement("img");
-}
-
 function selectDress( figure, dress, dress_list){
   for (i=0; i < dress_list.length; i++){
     if (dress_list[i] == dress){
@@ -395,6 +393,17 @@ function viewOrg (org_id, src){
   } else {
     show_orig(src, org_id);
   }
+};
+
+function create_dress (src, id, dress_class, cont) {
+  let dress = document.createElement("img");
+  dress.id=id;
+  dress.src=src;
+  dress.classList.add(dress_class);
+  let y = document.getElementById(cont);
+  y.appendChild(dress);
+  let x = document.getElementById(cont).childNodes;
+  moveDress(dress, y);
 };
 
 let t_org_src= "images/torchy/TorchyTogs.png";
@@ -519,6 +528,7 @@ bt82.addEventListener("click", function() { selectDress(t80,t82, dresses12); }) 
 bt83.addEventListener("click", function() { selectDress(t80,t83, dresses12); }) ;
 bt84.addEventListener("click", function() { selectDress(t80,t84, dresses12); }) ;
 
+dir.addEventListener("click", function() {hide_elm(dir);});
 
 
 function showTorchy (torchy, elm){
