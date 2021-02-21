@@ -14,8 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("images/wallpaper2.jpeg");
-  background-repeat: repeat;
+  background-color: #231114;
   left:0;right:0;
   z-index: -10;
 }
@@ -103,6 +102,15 @@ background-image: url("images/torchy/t1.png");
 }
 #three {
   background-image: url("images/torchy/t3.png");
+}
+#k_one {
+background-image: url("images/katy/k1.png");
+}
+#k_two {
+  background-image: url("images/katy/k2.png");
+}
+#k_three {
+  background-image: url("images/katy/k3.png");
 }
 
 #four {
@@ -213,6 +221,53 @@ background-image: url("images/torchy/t1.png");
 
 #t80_org {
   background-image: url("images/torchy/tt12.jpeg");
+}
+
+#b-k1 {
+  background-image: url("images/katy/katy_butterfly1.png");
+}
+#b-k2 {
+  background-image: url("images/katy/katy_butterfly2.png");
+}
+#b-k3 {
+  background-image: url("images/katy/katy_butterfly3.png");
+}
+#b-k4 {
+  background-image: url("images/katy/katy_butterfly4.png");
+}
+#b-k5 {
+  background-size: 5vh;
+  background-image: url("images/katy/katy_butterfly5.png");
+}
+#b-k6 {
+  background-size: 5vh;
+  background-image: url("images/katy/katy_butterfly6.png");
+}
+#b-k7 {
+  background-image: url("images/katy/katy_sea1.png");
+}
+#b-k8 {
+  background-image: url("images/katy/katy_sea2.png");
+}
+#b-k9 {
+  background-size: 5vh;
+  background-image: url("images/katy/katy_sea3.png");
+}
+#b-k10 {
+  background-size: 5vh;
+  background-image: url("images/katy/katy_sea4.png");
+}
+#b-k11 {
+  background-image: url("images/katy/katy_cowgirl1.png");
+}
+#b-k12 {
+  background-image: url("images/katy/katy_cowgirl2.png");
+}
+#b-k13 {
+  background-image: url("images/katy/katy_cowgirl3.png");
+}
+#b-k14 {
+  background-image: url("images/katy/katy_cowgirl4.png");
 }
 
 #b-t1 {
@@ -449,9 +504,11 @@ background-image: url("images/torchy/t1.png");
 @media only screen and (min-width: 300px){
 
   .button-torchy {
-    background-color: rgba(251,250,222,.7);
-    box-shadow: 0 0 8px 4px rgba(251,250,222,.7);
-    border: none;
+    background-color: rgba(251,250,222,1);
+    border-top: 4px solid rgb(255, 255, 250);
+    border-left: 4px solid rgb(255, 255, 250);
+    border-right: 4px solid rgb(138, 136, 101);
+    border-bottom: 4px solid rgb(138, 136, 101);
     height: 11vh;
     width:13vw;
     margin: 5px 10px;
@@ -465,11 +522,13 @@ background-image: url("images/torchy/t1.png");
     position: fixed;
     top: 5%; left: 20px;
     background-color: rgba(173,109,104,1);
-    box-shadow: 0 0 7px 3px rgba(173,109,104,1);
     border:none;
     color: white;
+    border-top: 2px solid rgba(222, 139, 133,1);
+    border-left: 2px solid rgba(222, 139, 133,1);
+    border-bottom: 2px solid rgba(148, 89, 84,1);
+    border-right: 2px solid rgba(148, 89, 84,1);
     font-size: 2.75vh;
-    border-radius: 50%;
     width: 23vw; height: 8vh;
     z-index: 40;
   }
@@ -510,7 +569,7 @@ background-image: url("images/torchy/t1.png");
     left:5px; right:5px;
   }
 
-  .torchy {
+  .torchy, .katy {
     height: 35vh;
     top: 20%;
     position: absolute;
@@ -533,10 +592,12 @@ background-image: url("images/torchy/t1.png");
     top: 30%; left: 20px;
     background-color: rgba(173,109,104,1);
     border: none;
-    box-shadow: 0 0 7px 3px rgba(173,109,104,1);
+    border-top: 2px solid rgba(222, 139, 133,1);
+    border-left: 2px solid rgba(222, 139, 133,1);
+    border-bottom: 2px solid rgba(148, 89, 84,1);
+    border-right: 2px solid rgba(148, 89, 84,1);
     color: white;
     font-size: 2.75vh;
-    border-radius: 50%;
     width: 23vw; height: 8vh;
     z-index: 40;
   }
@@ -547,10 +608,12 @@ background-image: url("images/torchy/t1.png");
     position: fixed;
     background-color: rgba(173,109,104,1);
     border: none;
-    box-shadow: 0 0 7px 3px rgba(173,109,104,1);
+    border-top: 2px solid rgba(222, 139, 133,1);
+    border-left: 2px solid rgba(222, 139, 133,1);
+    border-bottom: 2px solid rgba(148, 89, 84,1);
+    border-right: 2px solid rgba(148, 89, 84,1);
     color: white;
     font-size: 3vh;
-    border-radius: 50%;
     width: 27vw; height: 9vh;
     z-index: 40;
     bottom: 5%;
@@ -579,11 +642,11 @@ background-image: url("images/torchy/t1.png");
     z-index: 5;
     top:25%; left:25%;
   }
-  #t2, #t3{
+  #t2, #t3, #k2{
     height:25vh;
   }
 
-  .torchy-dress2{
+  .torchy-dress2, .katy-dress{
     display: none;
     position: absolute;
     height: 20vh;
