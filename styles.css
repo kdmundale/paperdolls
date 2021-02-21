@@ -58,6 +58,10 @@ footer{
 #t-logo-main {
   height: 250px;
   margin: 50px auto;
+  border-top: 7px solid #6e2d33;
+  border-left: 7px solid #6e2d33;
+  border-right: 7px solid #050001;
+  border-bottom: 7px solid #050001;
 }
 
 span{
@@ -70,7 +74,7 @@ span{
 #intro-box, .main {
   display: block;
   margin: 10% auto;
-  width: 90%;
+  width: 60%;
   padding: 30px;
   color: white;
   font-family: sans-serif;
@@ -553,14 +557,32 @@ background-image: url("images/katy/k1.png");
     padding: 10px;
     font-size: 25px;
   }
-  .main h1{
+  h1{
+    color: white;
     padding-top: 0px;
     padding-bottom: 50px;
-    font-size: 60px;
+    font-size: 40px;
   }
-  .main p {
+  .main-p {
+    text-align: center;
+    font-family: sans-serif;
+    width: 60%;
+    color: rgb(222, 139, 133);
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
+  }
+
+  .directions {
+    font-size: 12px;
+    padding: 20px;
+    position: fixed;
+    right:10px;
+    top:40%;
+    background-color: #231114;
+    font-family: sans-serif;
+    width: 15%;
+    color: rgb(222, 139, 133);
+    z-index: 30;
   }
 
   .dress-box-class {
