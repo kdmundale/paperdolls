@@ -528,7 +528,7 @@ bt82.addEventListener("click", function() { selectDress(t80,t82, dresses12); }) 
 bt83.addEventListener("click", function() { selectDress(t80,t83, dresses12); }) ;
 bt84.addEventListener("click", function() { selectDress(t80,t84, dresses12); }) ;
 
-dir.addEventListener("click", function() {hide_elm(dir);});
+document.getElementById("body").addEventListener("click", function() {hide_elm(dir);});
 
 
 function showTorchy (torchy, elm){
