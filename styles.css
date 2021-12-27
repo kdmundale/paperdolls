@@ -73,12 +73,14 @@ body {
 }
 
 #main-nav ul li img{
-  height: 5vw;
-  width: 5vw;
+  height: 7vw;
+  width: 7vw;
   margin-right: 1rem;
+  background-color: #231114;
 }
 
 #main-nav ul li a{
+  color: #231114;
   text-decoration: none;
   padding-right: 1rem;
   font-size: 2vw;
@@ -89,6 +91,8 @@ body {
 }
 
 #main-nav ul li a:hover{
+  background:#231114;
+  color: #f0afaa;
 }
 
 #t-logo-main {
@@ -105,7 +109,7 @@ body {
   align-items: center;
   justify-content: space-around;
   position: fixed;
-  bottom: 3vw;
+  bottom: 5%;
   margin: auto;
   z-index: 30;
 }
@@ -144,12 +148,14 @@ body {
 }
 
 footer{
-  background-color: rgba(173,109,104,.9);
-  color:white;
+  background: linear-gradient(#ad6d68,#cc8681,#ad6d68);
+  color: #ffe5e3;
   text-align: center;
+  font-style: italic;
   display: block;
   position: fixed;
-  bottom: 0;left:0;right:0;
+  padding: .5rem 0;
+  bottom: 5px;left:0;right:0;
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12 {
@@ -524,7 +530,7 @@ background-image: url("images/katy/k1.png");
 }
 
 .button-torchy {
-  background-color: rgba(251,250,222,1);
+  background-color: #fbfade;
   border-radius: 5px;
   border-top: 5px solid rgb(255, 255, 250);
   border-left: 5px solid rgb(255, 255, 250);
@@ -536,6 +542,14 @@ background-image: url("images/katy/k1.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.button-torchy:hover{
+  background-color: #dbdbc1;
+  border-top: 5px solid rgb(138, 136, 101);
+  border-left: 5px solid rgb(138, 136, 101);
+  border-right: 5px solid rgb(255, 255, 250);
+  border-bottom: 5px solid rgb(255, 255, 250);
 }
 
 .dress-button-holder{
@@ -653,6 +667,14 @@ background-image: url("images/katy/k1.png");
     z-index: 40;
   }
 
+  .drop:hover, .select:hover, .t_select:hover{
+    background: radial-gradient(#de8b85,#f0afaa);
+    border-top: 5px solid rgba(148, 89, 84,1);
+    border-left: 5px solid rgba(148, 89, 84,1);
+    border-bottom: 5px solid rgba(222, 139, 133,1);
+    border-right: 5px solid rgba(222, 139, 133,1);
+  }
+
   .drop {
     position: fixed;
     top: 15vh; left: 20px;
@@ -668,7 +690,7 @@ background-image: url("images/katy/k1.png");
     display: block;
     position: fixed;
     z-index: 40;
-    bottom: 5%;
+    bottom: 7%;
     padding: 2.5vw 3vw 2vw 2vw;
     color: #ffe5e3;
     background: radial-gradient(#f0afaa, #de8b85);
@@ -867,10 +889,6 @@ background-image: url("images/katy/k1.png");
 
 }
 @media only screen and (min-width: 1020px) {
-
-  #t-logo-main {
-    height: 180px;
-  }
 
   .drop, .select, .t_select {
     font-size: 1.5rem;
