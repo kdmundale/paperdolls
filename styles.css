@@ -20,6 +20,7 @@ body {
 }
 
 .landing {
+  border-radius: 5px;
   color: #231114;
   background-color: rgb(222, 139, 133);
   padding: 3rem 1rem;
@@ -31,7 +32,9 @@ body {
 }
 
 .landing section {
+  border-radius: 5px;
   padding: 1.5rem;
+  box-shadow: 0 0 7px 7px #b06964;
   background-color: #f0afaa;
   display: flex;
   flex-direction: column;
@@ -127,6 +130,7 @@ body {
 
 .intro-box {
   border-radius: 5px;
+  box-shadow: 0 0 7px 7px #b06964;
   display: block;
   font-size: 2vw;
   margin: 10% auto;
@@ -575,6 +579,7 @@ background-image: url("images/katy/k1.png");
     z-index: 1;
     color: #231114;
     border: 1.5rem solid rgb(222, 139, 133);
+    border-radius: 5px;
     background-color: rgb(222, 139, 133);
     padding: 3rem 1rem;
     margin: auto;
@@ -585,8 +590,10 @@ background-image: url("images/katy/k1.png");
   }
 
   .directions ol {
-    background-color: #de8b85;
+    box-shadow: 0 0 7px 7px #b06964;
+    border-radius: 5px;
     background-color: #f0afaa;
+    padding: 2rem;
     list-style: none;
     padding: 1.5rem;
   }
@@ -668,7 +675,7 @@ background-image: url("images/katy/k1.png");
   }
 
   .drop:hover, .select:hover, .t_select:hover{
-    background: radial-gradient(#de8b85,#f0afaa);
+    background: radial-gradient(#b06964,#de8b85,#f0afaa);
     border-top: 5px solid rgba(148, 89, 84,1);
     border-left: 5px solid rgba(148, 89, 84,1);
     border-bottom: 5px solid rgba(222, 139, 133,1);
