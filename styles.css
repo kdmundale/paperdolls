@@ -654,7 +654,7 @@ background-image: url("images/katy/k1.png");
   .torch {
     position: absolute;
     height: 35vh;
-    left:30%; top:35%;
+    left:50%; top:45%;
     z-index: 4;
   }
 
