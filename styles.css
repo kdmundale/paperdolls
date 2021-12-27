@@ -522,63 +522,9 @@ background-image: url("images/katy/k1.png");
 #b-t84 {
   background-image: url("images/torchy/torchy84.png");
 }
-/* #dress-box{
-  background-color: rgba(252, 252, 212,.8);
-  background-color: rgba(242, 171, 133,.8);
-}
-
-#dress-box2{
-  background-color: rgba(242, 171, 133,.8);
-}
-
-#dress-box3{
-  background-color: rgba(252, 224, 157,.8);
-  background-color: rgba(242, 171, 133,.8);
-}
-
-#dress-box4{
-  background-color: rgba(168, 212, 138,.8);
-  background-color: rgba(242, 171, 133,.8);
-}
-
-#dress-box5{
-  background-color: rgba(245, 143, 122,.8);
-  background-color: rgba(242, 171, 133,.8);
-}
-
-#dress-box6{
-  background-color: rgba(138, 212, 182,.8);
-  background-color: rgba(242, 171, 133,.8);
-}
-
-#dress-box7{
-  background-color: rgba(252, 252, 212,.8);
-  background-color: rgba(242, 171, 133,.8);
-}
-
-#dress-box8{
-  background-color: rgba(242, 171, 133,.8);
-}
-
-#dress-box9{
-  background-color: rgba(252, 224, 157,.8);
-}
-
-#dress-box10{
-  background-color: rgba(168, 212, 138,.8);
-}
-
-#dress-box11{
-  background-color: rgba(245, 143, 122,.8);
-}
-
-#dress-box12{
-  background-color: rgba(138, 212, 182,.8);
-} */
 
 .button-torchy {
   background-color: rgba(251,250,222,1);
-  /* background: radial-gradient(black,#f7e0bc,#faecd7); */
   border-radius: 5px;
   border-top: 5px solid rgb(255, 255, 250);
   border-left: 5px solid rgb(255, 255, 250);
